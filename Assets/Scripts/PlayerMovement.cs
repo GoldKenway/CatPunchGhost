@@ -40,6 +40,8 @@ public class PlayerMovement : MonoBehaviour
             hitCount = 0;
         }
 
+        Debug.Log("Hitcount is " + hitCount);
+
         transform.position += new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0) * Time.deltaTime * movementSpeed;
         //if (Time.time >= nextAttackTime)
         //{
@@ -48,16 +50,38 @@ public class PlayerMovement : MonoBehaviour
                 print("F has been pressed");
                 lastAttackTime = Time.time;
                 hitCount++;
-                if (hitCount == 1)
-                {
-                    print("hitCount = 1");
-                    animator.SetBool("Punch 1", true);
+            if (hitCount == 1)
+            {
+                print("hitCount = 1");
+                animator.SetBool("Punch 1", true);
+                animator.SetBool("Punch 2", false);
+                animator.SetBool("Punch 3", false);
 
-                    //animator.Play("Punch 1", -1, 0f);
-                    PunchAttack();
-                }
-                 
-                hitCount = Mathf.Clamp(hitCount, 0, 3);
+                //animator.Play("Punch 1", -1, 0f);
+                PunchAttack();
+            }
+            else if (hitCount == 2)
+            {
+                print("hitCount = 2");
+                animator.SetBool("Punch 1", false);
+                animator.SetBool("Punch 2", true);
+                animator.SetBool("Punch 3", false);
+
+                //animator.Play("Punch 1", -1, 0f);
+                PunchAttack();
+            }
+            else if (hitCount == 3)
+            {
+                print("hitCount = 3");
+                animator.SetBool("Punch 1", false);
+                animator.SetBool("Punch 2", false);
+                animator.SetBool("Punch 3", true);
+                //animator.Play("Punch 1", -1, 0f);
+                PunchAttack();
+            }
+            
+
+            hitCount = Mathf.Clamp(hitCount, 0, 3);
                 //nextAttackTime = Time.time + 1f / attackRate;
             }
         //}
