@@ -32,13 +32,11 @@ public class EnemyGhost : MonoBehaviour
     }
 
 
-   void Die()
+    void Die()
     {
         Debug.Log("Enemy died!");
         isDead = true;
         animator.SetBool("isDead", true);
-
-        //animator.Play("Ghost_Death",-1,0f)
 
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;

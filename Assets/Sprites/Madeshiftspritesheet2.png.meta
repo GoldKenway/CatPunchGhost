@@ -1,0 +1,301 @@
+fileFormatVersion: 2
+guid: dbb0961b5ef5fd44eaafc50ed76e6c74
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3374532994363820684
+    second: Punch 1.0
+  - first:
+      213: 1454945073295747603
+    second: Punch 1.1
+  - first:
+      213: -7999384447416592410
+    second: Punch 1.2
+  - first:
+      213: -9151383904112957112
+    second: Punch 2.0
+  - first:
+      213: -1974852945023202944
+    second: Punch 2.1
+  - first:
+      213: -4361970509251537227
+    second: Punch 3.0
+  - first:
+      213: -1212197153486144752
+    second: Punch 3.1
+  - first:
+      213: 632778505766123868
+    second: Punch 3.2
+  - first:
+      213: 8382806271525074444
+    second: Madeshiftspritesheet2_8
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Punch 1.0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 357
+        width: 66
+        height: 95
+      alignment: 9
+      pivot: {x: 0.44269076, y: 0.47440475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a04eb11efb4de20800000000000000
+      internalID: 3374532994363820684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch 1.1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 357
+        width: 81
+        height: 95
+      alignment: 9
+      pivot: {x: 0.3632461, y: 0.47724867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a6f75e5d0013410800000000000000
+      internalID: 1454945073295747603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch 1.2
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 357
+        width: 66
+        height: 95
+      alignment: 9
+      pivot: {x: 0.4467843, y: 0.4829365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e713f54a3a7cf090800000000000000
+      internalID: -7999384447416592410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch 2.0
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 360
+        width: 53
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5305855, y: 0.47650677}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849ae1843d0cff080800000000000000
+      internalID: -9151383904112957112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch 2.1
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 357
+        width: 61
+        height: 90
+      alignment: 9
+      pivot: {x: 0.3715575, y: 0.48499045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0890240b5b9e794e0800000000000000
+      internalID: -1974852945023202944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch 3.0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 246
+        width: 51
+        height: 90
+      alignment: 9
+      pivot: {x: 0.57946247, y: 0.4759847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6155bbeea2773c0800000000000000
+      internalID: -4361970509251537227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch 3.1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 240
+        width: 51
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5900574, y: 0.46998087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bf7b48c196d2fe0800000000000000
+      internalID: -1212197153486144752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch 3.2
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 240
+        width: 54
+        height: 96
+      alignment: 9
+      pivot: {x: 0.47998726, y: 0.47748566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5931b9c2b418c800800000000000000
+      internalID: 632778505766123868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
