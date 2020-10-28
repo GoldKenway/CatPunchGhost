@@ -8,6 +8,7 @@ public class Mov : MonoBehaviour
 {
 
     //public Animator animator;
+
     private Rigidbody2D _rigidbody;
 
 
@@ -33,7 +34,7 @@ public class Mov : MonoBehaviour
     private void Awake()
     {
 
-        rb2D = GetComponent<Rigidbody2D>();
+        _rigidbody = GetComponent<Rigidbody2D>();
     }
 
 
@@ -43,21 +44,22 @@ public class Mov : MonoBehaviour
         if (canMove)
         {
             Vector3 targetVelocity = new Vector2(hMove * hspeed, vMove * vspeed);
+
+
+            _rigidbody.velocity = Vector3.SmoothDamp(_rigidbody.velocity, targetVelocity, ref velocity, movementSmooth);// takes in some inpute values and sets veloctiy in a smoothed out movement velocity. 
+
+
+            //roate if facing the wrong way
+            if (hMove > 0 && !facingRight)
+            {
+                flip();
+            }
+            else if (hMove < 0 && facingRight)
+            {
+                flip();
+            }
+
         }
-
-        rb2D.velocity = Vector3.SmoothDamp(rb2d.velocity, targetVelocity, ref velocity, movementSmooth);// takes in some inpute values and sets veloctiy in a smoothed out movement velocity. 
-
-        //roate if facing the wrong way
-        if (hMove > 0 && !facingRight)
-        {
-            flip();
-        }
-        else if (hMove < 0 && facingRight)
-        {
-            flip();
-        }
-
-
     }
 
     private void flip()
