@@ -54,6 +54,11 @@ public class EnemyWaveSpawner : MonoBehaviour
         state = SpawnState.counting;
         waveCountdown = timeBetweenWaves;
 
+        if (nextWave + 1 > waves.Length - 1)
+        {
+            nextWave = 1;
+            Debug.Log("All waves complete! Looping...");
+        }
         nextWave++;
 
     }
