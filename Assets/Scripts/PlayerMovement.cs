@@ -50,24 +50,24 @@ public class PlayerMovement : MonoBehaviour
                 //print("F has been pressed");
                 lastAttackTime = Time.time;
                 hitCount++;
-                PunchAttack();
+                //PunchAttack();
 
-            if (hitCount == 1)
-            {
-                print("hitCount = 1");
+            //if (hitCount == 1)
+            //{
+                print("hitCount = " + hitCount);
                 animator.SetBool("Punch 1", true);
-                animator.SetBool("Punch 2", false);
-                animator.SetBool("Punch 3", false);
+                //animator.SetBool("Punch 2", false);
+                //animator.SetBool("Punch 3", false);
 
                 //animator.Play("Punch 1", -1, 0f);
                 PunchAttack();
-            }
-            else if (hitCount == 2)
+            //}
+/*            else if (hitCount == 2)
             {
                 print("hitCount = 2");
-                animator.SetBool("Punch 1", false);
+                //animator.SetBool("Punch 1", false);
                 animator.SetBool("Punch 2", true);
-                animator.SetBool("Punch 3", false);
+                //animator.SetBool("Punch 3", false);
 
                 //animator.Play("Punch 1", -1, 0f);
                 PunchAttack();
@@ -75,13 +75,13 @@ public class PlayerMovement : MonoBehaviour
             else if (hitCount == 3)
             {
                 print("hitCount = 3");
-                animator.SetBool("Punch 1", false);
-                animator.SetBool("Punch 2", false);
+                //animator.SetBool("Punch 1", false);
+                //animator.SetBool("Punch 2", false);
                 animator.SetBool("Punch 3", true);
                 //animator.Play("Punch 1", -1, 0f);
                 PunchAttack();
             }
-            
+*/            
 
             hitCount = Mathf.Clamp(hitCount, 0, 3);
                 //nextAttackTime = Time.time + 1f / attackRate;
@@ -125,6 +125,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
+            animator.SetBool("Punch 1", false);
             animator.SetBool("Punch 2", false);
             hitCount = 0;
         }
