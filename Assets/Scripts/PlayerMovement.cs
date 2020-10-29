@@ -40,16 +40,18 @@ public class PlayerMovement : MonoBehaviour
             hitCount = 0;
         }
 
-        Debug.Log("Hitcount is " + hitCount);
+        //Debug.Log("Hitcount is " + hitCount);
 
         transform.position += new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0) * Time.deltaTime * movementSpeed;
         //if (Time.time >= nextAttackTime)
         //{
             if (Input.GetKeyDown(KeyCode.F))
             {
-                print("F has been pressed");
+                //print("F has been pressed");
                 lastAttackTime = Time.time;
                 hitCount++;
+                PunchAttack();
+
             if (hitCount == 1)
             {
                 print("hitCount = 1");

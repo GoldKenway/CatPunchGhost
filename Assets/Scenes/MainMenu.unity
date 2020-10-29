@@ -347,6 +347,7 @@ GameObject:
   - component: {fileID: 697475516}
   - component: {fileID: 697475519}
   - component: {fileID: 697475517}
+  - component: {fileID: 697475518}
   m_Layer: 0
   m_Name: MainCharacter
   m_TagString: Untagged
@@ -453,6 +454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a4f02ae4154ab44a83cc7ba22dfd52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
   hspeed: 10
   vspeed: 6
   canMove: 1
@@ -464,6 +466,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   hit: 1
+  hitCount: 0
+  maxComboDelay: 0.9
 --- !u!95 &697475517
 Animator:
   serializedVersion: 3
@@ -483,6 +487,29 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &697475518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697475512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0803ac9bdde2154b8ed1fd0961f689b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  PunchAttackPoint: {fileID: 1964920471}
+  movementSpeed: 3
+  attackRange: 0.5
+  attackRate: 2
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 256
+  hit: 1
+  hitCount: 0
+  maxComboDelay: 0.9
 --- !u!114 &697475519
 MonoBehaviour:
   m_ObjectHideFlags: 0

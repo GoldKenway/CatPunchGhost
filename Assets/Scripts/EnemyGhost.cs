@@ -6,7 +6,7 @@ public class EnemyGhost : MonoBehaviour
 {
     public Animator animator;
     public int maxHealth = 3;
-    int currentHealth;
+    int currentHealth = 3;
     bool isDead = false;
 
 
@@ -38,6 +38,7 @@ public class EnemyGhost : MonoBehaviour
         isDead = true;
         animator.SetBool("isDead", true);
 
+        gameObject.tag = "Untagged";
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
 
