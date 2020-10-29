@@ -11,7 +11,7 @@ public class Mov : MonoBehaviour
 
     public Animator animator;
     private Rigidbody2D _rigidbody;
-    public Transform PunchAttackPoint;
+
 
 
     [SerializeField] private float hspeed = 10f;
@@ -72,10 +72,11 @@ public class Mov : MonoBehaviour
         facingRight = !facingRight;
         transform.Rotate(0, 180, 0);
     }
-
-
-
 }
+
+
+
+
 
 
    
