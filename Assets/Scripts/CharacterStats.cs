@@ -14,7 +14,7 @@ public class CharacterStats : MonoBehaviour
 
 	public int chargeCount = 0;
 
-	private int lifeCount = 3;
+	public int lifeCount = 3;
 
 
 	public void GameOver()

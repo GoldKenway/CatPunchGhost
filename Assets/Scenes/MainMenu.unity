@@ -1137,6 +1137,7 @@ MonoBehaviour:
   Lives: {fileID: 1511055105}
   playerHealth: 0
   chargeCount: 0
+  lifeCount: 3
 --- !u!1 &1511055103
 GameObject:
   m_ObjectHideFlags: 0
