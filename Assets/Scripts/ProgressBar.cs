@@ -7,6 +7,13 @@ public class ProgressBar : MonoBehaviour
 
 	public Slider slider;
 
+	public void SetMaxEnemy(int totalEnemies)
+	{
+		slider.maxValue = totalEnemies;
+
+	}
+
+
 	public void SetProgress(int EnemyKilled)
 	{
 		slider.value = EnemyKilled;
