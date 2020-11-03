@@ -7,6 +7,7 @@ public class EnemyAI : MonoBehaviour
 {
     private Rigidbody2D rb;
     public Transform player;
+    public GameObject playerObj;
     private float moveSpeed = .6f;
     private Vector2 movement;
 
@@ -24,6 +25,8 @@ public class EnemyAI : MonoBehaviour
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
+        playerObj = GameObject.FindWithTag("MainCharacter");
+        player = playerObj.GetComponent<Transform>();
     }
 
     // Update is called once per frame
