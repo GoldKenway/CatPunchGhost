@@ -41,7 +41,7 @@ public class EnemyGhost : MonoBehaviour
     }
 
 
-    void Die(int deathRemove)
+    public int Die(int deathRemove)
     {
 
         Debug.Log("Enemy died!");
