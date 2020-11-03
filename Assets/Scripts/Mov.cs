@@ -68,7 +68,7 @@ public class Mov : MonoBehaviour
 
         }
 
-        if (hMove != 0)
+        if (hMove != 0 || vMove != 0)
         {
             animator.SetBool("isMoving", true);
         }

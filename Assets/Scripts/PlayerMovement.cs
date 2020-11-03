@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public GameObject player;
 
+
     public Animator animator;
     private Rigidbody2D _rigidbody;
     public Transform PunchAttackPoint;
@@ -22,16 +23,18 @@ public class PlayerMovement : MonoBehaviour
     float lastAttackTime = 0;
     public float maxComboDelay = 0.9f;
 
+  
+
+
     public Mov movement;
 
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("I am alive!");
         animator = gameObject.GetComponent<Animator>();
         animator.SetBool("isPunching", false);
         _rigidbody = GetComponent<Rigidbody2D>();
-
+        movement = GetComponent<Mov>();
     }
 
     // Update is called once per frame
@@ -54,12 +57,15 @@ public class PlayerMovement : MonoBehaviour
             hitCount++;
 
             print("hitCount = " + hitCount);
+            movement.isMoving = false;
+            animator.SetBool("isMoving", false);
             animator.SetBool("Punch 1", true);
 
             PunchAttack();
 
-
             hitCount = Mathf.Clamp(hitCount, 0, 3);
+
+
 
         }
         else
@@ -85,6 +91,8 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("Punch 2", true);
 
             PunchAttack();
+            animator.SetBool("Punch 1", false);
+
         }
         else
         {
