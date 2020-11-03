@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public GameObject player;
 
     public Animator animator;
     private Rigidbody2D _rigidbody;
@@ -40,53 +41,33 @@ public class PlayerMovement : MonoBehaviour
             hitCount = 0;
         }
 
-        //Debug.Log("Hitcount is " + hitCount);
 
         transform.position += new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0) * Time.deltaTime * movementSpeed;
-        //if (Time.time >= nextAttackTime)
-        //{
-            if (Input.GetKeyDown(KeyCode.F))
-            {
-                //print("F has been pressed");
-                lastAttackTime = Time.time;
-                hitCount++;
-                //PunchAttack();
 
-            //if (hitCount == 1)
-            //{
-                print("hitCount = " + hitCount);
-                animator.SetBool("Punch 1", true);
-                //animator.SetBool("Punch 2", false);
-                //animator.SetBool("Punch 3", false);
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            player.GetComponent<Mov>().hspeed = 0;
+            player.GetComponent<Mov>().vspeed = 0;
 
-                //animator.Play("Punch 1", -1, 0f);
-                PunchAttack();
-            //}
-/*            else if (hitCount == 2)
-            {
-                print("hitCount = 2");
-                //animator.SetBool("Punch 1", false);
-                animator.SetBool("Punch 2", true);
-                //animator.SetBool("Punch 3", false);
+            lastAttackTime = Time.time;
+            hitCount++;
 
-                //animator.Play("Punch 1", -1, 0f);
-                PunchAttack();
-            }
-            else if (hitCount == 3)
-            {
-                print("hitCount = 3");
-                //animator.SetBool("Punch 1", false);
-                //animator.SetBool("Punch 2", false);
-                animator.SetBool("Punch 3", true);
-                //animator.Play("Punch 1", -1, 0f);
-                PunchAttack();
-            }
-*/            
+            print("hitCount = " + hitCount);
+            animator.SetBool("Punch 1", true);
+
+            PunchAttack();
+
 
             hitCount = Mathf.Clamp(hitCount, 0, 3);
-                //nextAttackTime = Time.time + 1f / attackRate;
-            }
-        //}
+
+        }
+        else
+        {
+            player.GetComponent<Mov>().hspeed = 2;
+            player.GetComponent<Mov>().vspeed = 1;
+
+        }
+       
 
 
     

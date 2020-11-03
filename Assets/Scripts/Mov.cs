@@ -14,8 +14,8 @@ public class Mov : MonoBehaviour
 
 
 
-    [SerializeField] private float hspeed = 10f;
-    [SerializeField] private float vspeed = 6f;
+    [SerializeField] public float hspeed = 1f;
+    [SerializeField] public float vspeed = .5f;
     [SerializeField] private bool canMove;
 
     private bool facingRight = true;
