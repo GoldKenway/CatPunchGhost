@@ -7,23 +7,20 @@ public class EnemyAI : MonoBehaviour
 {
     private Rigidbody2D rb;
     public Transform player;
+    public GameObject playerObj;
     private float moveSpeed = .6f;
     private Vector2 movement;
 
     //helps with flipping ghosts
     private bool facingLeft = true;
 
-    protected override moveCharacter()
-    {
-        //Enemy Movement that we want to be different for whatever reason
-
-    }
-
 
     // Start is called before the first frame update
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
+        playerObj = GameObject.FindWithTag("MainCharacter");
+        player = playerObj.GetComponent<Transform>();
     }
 
     // Update is called once per frame
