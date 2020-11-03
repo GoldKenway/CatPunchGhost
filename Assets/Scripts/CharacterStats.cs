@@ -10,7 +10,7 @@ public class CharacterStats : MonoBehaviour
 
 	public Text Lives;
 
-	public int playerHealth = 500;
+	private int playerHealth = 500;
 
 	public int chargeCount = 0;
 
