@@ -14,6 +14,12 @@ public class EnemyAI : MonoBehaviour
     //helps with flipping ghosts
     private bool facingLeft = true;
 
+    /*protected override moveCharacter()
+    {
+        //Enemy Movement that we want to be different for whatever reason
+
+    }
+*/
 
     // Start is called before the first frame update
     void Start()

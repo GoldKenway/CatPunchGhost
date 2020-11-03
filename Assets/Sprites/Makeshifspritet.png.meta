@@ -20,6 +20,39 @@ TextureImporter:
   - first:
       213: -1322026641988620765
     second: Ghost Death 6
+  - first:
+      213: 236058970477178671
+    second: Cat_Walk_1
+  - first:
+      213: 385737666619911684
+    second: Cat_Walk_2
+  - first:
+      213: 2644795858505899388
+    second: Cat_Walk_3
+  - first:
+      213: -2388266224083316568
+    second: Cat_Walk_4
+  - first:
+      213: 1327054169114890589
+    second: Cat_Walk_5
+  - first:
+      213: 4900194828639796557
+    second: Cat_Walk_6
+  - first:
+      213: -5495505824296183379
+    second: Cat_Walk_7
+  - first:
+      213: 2297413072566540482
+    second: Cat_Walk_8
+  - first:
+      213: -8370274522605966978
+    second: Cat_Walk_9
+  - first:
+      213: -6348813932221922703
+    second: Cat_Walk_10
+  - first:
+      213: -5309577614061872090
+    second: Makeshifspritet_16
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -228,6 +261,216 @@ TextureImporter:
       bones: []
       spriteID: 32e6aa406c737ade0800000000000000
       internalID: -1322026641988620765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 266
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f26590266a64300800000000000000
+      internalID: 236058970477178671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 267
+        width: 60
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e2e533d5a6a5500800000000000000
+      internalID: 385737666619911684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 266
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d1ba112d334b420800000000000000
+      internalID: 2644795858505899388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 267
+        width: 60
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a05374d58c2bded0800000000000000
+      internalID: -2388266224083316568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 266
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d515bcb5cb4aa6210800000000000000
+      internalID: 1327054169114890589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 266
+        width: 60
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4df74bfb3df00440800000000000000
+      internalID: 4900194828639796557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 266
+        width: 60
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da95cb9b19a0cb3b0800000000000000
+      internalID: -5495505824296183379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 267
+        width: 60
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8daac640d02ef10800000000000000
+      internalID: 2297413072566540482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat_Walk_9
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 266
+        width: 60
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79a1975bafc6db80800000000000000
+      internalID: -8370274522605966978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat_Walk_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 60
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1728cd8bd5b74e7a0800000000000000
+      internalID: -6348813932221922703
       vertices: []
       indices: 
       edges: []

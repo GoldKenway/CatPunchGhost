@@ -7,7 +7,6 @@ using UnityEngine;
 public class Mov : MonoBehaviour
 {
 
-    //public Animator animator;
 
     public Animator animator;
     private Rigidbody2D _rigidbody;
@@ -36,11 +35,14 @@ public class Mov : MonoBehaviour
     float lastAttackTime = 0;
     public float maxComboDelay = 0.9f;
 
+    public bool isMoving = false;
+
     private void Awake()
     {
 
         _rigidbody = GetComponent<Rigidbody2D>();
     }
+
 
 
     public void Move(float hMove, float vMove, bool jump)
@@ -64,6 +66,15 @@ public class Mov : MonoBehaviour
                 flip();
             }
 
+        }
+
+        if (hMove != 0)
+        {
+            animator.SetBool("isMoving", true);
+        }
+        else
+        {
+            animator.SetBool("isMoving", false);
         }
     }
 
