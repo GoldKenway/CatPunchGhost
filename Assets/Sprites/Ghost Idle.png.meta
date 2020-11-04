@@ -11,6 +11,9 @@ TextureImporter:
   - first:
       213: -8639863935944374054
     second: ghost_sprite_sheet_2
+  - first:
+      213: 4475046483918720195
+    second: ghost_sprite_sheet_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -106,7 +109,7 @@ TextureImporter:
         width: 55
         height: 111
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -127,7 +130,7 @@ TextureImporter:
         width: 55
         height: 110
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -148,7 +151,7 @@ TextureImporter:
         width: 55
         height: 110
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -156,6 +159,27 @@ TextureImporter:
       bones: []
       spriteID: ad8c356b689091880800000000000000
       internalID: -8639863935944374054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_sprite_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 3
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc065b311f8a1e30800000000000000
+      internalID: 4475046483918720195
       vertices: []
       indices: 
       edges: []

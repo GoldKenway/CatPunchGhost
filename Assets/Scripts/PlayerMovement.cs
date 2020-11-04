@@ -52,6 +52,7 @@ public class PlayerMovement : MonoBehaviour
         {
             player.GetComponent<Mov>().hspeed = 0;
             player.GetComponent<Mov>().vspeed = 0;
+            movement.canMove = false;
 
             lastAttackTime = Time.time;
             hitCount++;
@@ -98,8 +99,10 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetBool("Punch 1", false);
             hitCount = 0;
+            movement.canMove = true;
+
         }
-            
+
     }
 
     public void return2()
@@ -118,6 +121,8 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("Punch 1", false);
             animator.SetBool("Punch 2", false);
             hitCount = 0;
+            movement.canMove = true;
+
         }
 
     }
@@ -131,6 +136,8 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("Punch 3", false);
 
         hitCount = 0;
+        movement.canMove = true;
+
     }
 
 

@@ -13,6 +13,8 @@ public class EnemyGhost : MonoBehaviour
     public int Deaths;
 
 
+    public EnemyAI enemyAI;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +25,11 @@ public class EnemyGhost : MonoBehaviour
     void Update()
     {
         Progress = GameObject.FindWithTag("ProgressBar");
-
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            enemyAI.Attack();
+            animator.SetBool("Attack", true);
+        }
     }
 
     public void TakeDamage(int damage)
@@ -59,4 +65,8 @@ public class EnemyGhost : MonoBehaviour
         Destroy(gameObject, 0);
     }
 
+    public void EndAttack()
+    {
+        animator.SetBool("Attack", false);
+    }
 }

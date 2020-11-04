@@ -15,7 +15,7 @@ public class Mov : MonoBehaviour
 
     [SerializeField] public float hspeed = 1f;
     [SerializeField] public float vspeed = .5f;
-    [SerializeField] private bool canMove;
+    [SerializeField] public bool canMove;
 
     private bool facingRight = true;
 
@@ -70,10 +70,12 @@ public class Mov : MonoBehaviour
 
         if (hMove != 0 || vMove != 0)
         {
+            isMoving = true;
             animator.SetBool("isMoving", true);
         }
         else
         {
+            isMoving = false;
             animator.SetBool("isMoving", false);
         }
     }

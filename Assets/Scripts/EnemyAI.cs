@@ -10,6 +10,17 @@ public class EnemyAI : MonoBehaviour
     public GameObject playerObj;
     private float moveSpeed = .6f;
     private Vector2 movement;
+    public Animator animator;
+
+
+    public Transform nearEnemyTracker;
+    public Transform AttackPoint;
+    public float nearPlayerRange = 1f;
+    public float attackRange = .5f;
+
+
+    public LayerMask character;
+
 
     //helps with flipping ghosts
     private bool facingLeft = true;
@@ -59,6 +70,8 @@ public class EnemyAI : MonoBehaviour
         {
             flip();
         }
+
+        
         
     }
 
@@ -67,4 +80,29 @@ public class EnemyAI : MonoBehaviour
         facingLeft = !facingLeft;
         transform.Rotate(0, 180, 0);
     }
+
+
+    void OnDrawGizmosSelected()
+    {
+        //if (nearEnemyTracker == null)
+        //    return;
+        Gizmos.DrawWireSphere(nearEnemyTracker.position, nearPlayerRange);
+        Gizmos.DrawWireSphere(AttackPoint.position, attackRange);
+
+    }
+
+    public void Attack()
+    {
+        Collider2D[] playableCharacter = Physics2D.OverlapCircleAll(AttackPoint.position, attackRange, character);
+        animator.SetBool("Attack", true);
+        
+        foreach(Collider2D MainCharacter in playableCharacter)
+        {
+            Debug.Log("Ghost hit player.");
+
+        }
+
+    }
+
+
 }

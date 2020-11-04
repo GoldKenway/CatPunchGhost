@@ -41,6 +41,9 @@ TextureImporter:
   - first:
       213: 8774944090523409605
     second: MakeshiftSpriteSheet4_12
+  - first:
+      213: -1025485247927863690
+    second: Ghost Attack_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -131,7 +134,7 @@ TextureImporter:
       name: Small_Ghost_Attack_1
       rect:
         serializedVersion: 2
-        x: 45
+        x: 562
         y: 396
         width: 32
         height: 63
@@ -152,7 +155,7 @@ TextureImporter:
       name: Small_Ghost_Attack_2
       rect:
         serializedVersion: 2
-        x: 88
+        x: 518
         y: 402
         width: 34
         height: 57
@@ -173,7 +176,7 @@ TextureImporter:
       name: Small_Ghost_Attack_3
       rect:
         serializedVersion: 2
-        x: 126
+        x: 476
         y: 406
         width: 38
         height: 48
@@ -194,7 +197,7 @@ TextureImporter:
       name: Small_Ghost_Attack_4
       rect:
         serializedVersion: 2
-        x: 172
+        x: 434
         y: 402
         width: 34
         height: 58
@@ -215,8 +218,8 @@ TextureImporter:
       name: Normal_Ghost_Attack_1
       rect:
         serializedVersion: 2
-        x: 38
-        y: 260
+        x: 554
+        y: 259
         width: 48
         height: 94
       alignment: 7
@@ -236,7 +239,7 @@ TextureImporter:
       name: Normal_Ghost_Attack_2
       rect:
         serializedVersion: 2
-        x: 101
+        x: 486
         y: 263
         width: 53
         height: 87
@@ -257,7 +260,7 @@ TextureImporter:
       name: Normal_Ghost_Attack_3
       rect:
         serializedVersion: 2
-        x: 156
+        x: 427
         y: 268
         width: 57
         height: 71
@@ -278,7 +281,7 @@ TextureImporter:
       name: Normal_Ghost_Attack_4
       rect:
         serializedVersion: 2
-        x: 225
+        x: 376
         y: 264
         width: 39
         height: 80
@@ -299,7 +302,7 @@ TextureImporter:
       name: Big_Ghost_Attack_1
       rect:
         serializedVersion: 2
-        x: 19
+        x: 534
         y: 46
         width: 87
         height: 172
@@ -320,7 +323,7 @@ TextureImporter:
       name: Big_Ghost_Attack_2
       rect:
         serializedVersion: 2
-        x: 129
+        x: 415
         y: 46
         width: 96
         height: 165
@@ -341,7 +344,7 @@ TextureImporter:
       name: Big_Ghost_Attack_3
       rect:
         serializedVersion: 2
-        x: 236
+        x: 301
         y: 59
         width: 103
         height: 130
@@ -362,7 +365,7 @@ TextureImporter:
       name: Big_Ghost_Attack_4
       rect:
         serializedVersion: 2
-        x: 354
+        x: 208
         y: 48
         width: 78
         height: 161
