@@ -10,7 +10,7 @@ public class EnemyGhost : MonoBehaviour
     public int maxHealth = 3;
     int currentHealth = 3;
     bool isDead = false;
-    private int Deaths;
+    public int Deaths;
 
 
     // Start is called before the first frame update
@@ -47,8 +47,8 @@ public class EnemyGhost : MonoBehaviour
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
 
-        Deaths++;
-        Progress.GetComponent<ProgressBar>().SetProgress(Deaths);
+        Progress.GetComponent<ProgressBar>().EnemiesKilled++;
+        Progress.GetComponent<ProgressBar>().SetProgress(Progress.GetComponent<ProgressBar>().EnemiesKilled);
 
         remove();
 

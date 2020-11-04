@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class ProgressBar : MonoBehaviour
 {
 
-	GameObject EnemyObj;
+	public int EnemiesKilled;
 
 
 	public Slider slider;
@@ -17,9 +17,9 @@ public class ProgressBar : MonoBehaviour
 	}
 
 
-	public void SetProgress(int EnemyKilled)
+	public void SetProgress(int EnemiesKilled)
 	{
-		slider.value = EnemyKilled;
+		slider.value = EnemiesKilled;
 
 	}
 
