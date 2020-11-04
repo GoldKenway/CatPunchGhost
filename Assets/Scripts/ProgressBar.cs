@@ -5,6 +5,9 @@ using UnityEngine.UI;
 public class ProgressBar : MonoBehaviour
 {
 
+	GameObject EnemyObj;
+
+
 	public Slider slider;
 
 	public void SetMaxEnemy(int totalEnemies)

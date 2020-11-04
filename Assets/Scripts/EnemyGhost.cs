@@ -5,10 +5,12 @@ using UnityEngine;
 
 public class EnemyGhost : MonoBehaviour
 {
+    public GameObject Progress;
     public Animator animator;
     public int maxHealth = 3;
     int currentHealth = 3;
     bool isDead = false;
+    private int Deaths;
 
 
     // Start is called before the first frame update
@@ -20,28 +22,21 @@ public class EnemyGhost : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Progress = GameObject.FindWithTag("ProgressBar");
+
     }
 
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        if(currentHealth <= 0)
+        if (currentHealth <= 0)
         {
-            
-            int deathRemove = 0;
-            Die(deathRemove);
-
-            if (deathRemove == 1)
-            {
-                remove();
-            }
-
+            Die();
         }
     }
 
 
-    public int Die(int deathRemove)
+    void Die()
     {
 
         Debug.Log("Enemy died!");
@@ -52,9 +47,10 @@ public class EnemyGhost : MonoBehaviour
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
 
-        deathRemove = 1;
+        Deaths++;
+        Progress.GetComponent<ProgressBar>().SetProgress(Deaths);
 
-        return deathRemove;
+        remove();
 
     }
 
