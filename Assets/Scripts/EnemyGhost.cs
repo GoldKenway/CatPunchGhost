@@ -11,6 +11,10 @@ public class EnemyGhost : MonoBehaviour
     int currentHealth = 3;
     bool isDead = false;
     public int Deaths;
+    bool touchingPlayer;
+
+
+    float lastAttackTime = 3;
 
 
     public EnemyAI enemyAI;
@@ -25,6 +29,15 @@ public class EnemyGhost : MonoBehaviour
     void Update()
     {
         Progress = GameObject.FindWithTag("ProgressBar");
+        if (enemyAI.isTouching())
+        {
+            if (Time.time - lastAttackTime > 2)
+            {
+                lastAttackTime = Time.time;
+                enemyAI.Attack();
+                animator.SetBool("Attack", true);
+            }
+        }
         if (Input.GetKeyDown(KeyCode.G))
         {
             enemyAI.Attack();
@@ -69,4 +82,8 @@ public class EnemyGhost : MonoBehaviour
     {
         animator.SetBool("Attack", false);
     }
+
+
+
+
 }

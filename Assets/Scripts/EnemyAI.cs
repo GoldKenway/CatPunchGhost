@@ -20,7 +20,7 @@ public class EnemyAI : MonoBehaviour
 
 
     public LayerMask character;
-
+    public CharacterStats charStats;
 
     //helps with flipping ghosts
     private bool facingLeft = true;
@@ -99,10 +99,18 @@ public class EnemyAI : MonoBehaviour
         foreach(Collider2D MainCharacter in playableCharacter)
         {
             Debug.Log("Ghost hit player.");
+            charStats.characterHit(50);
 
         }
 
     }
 
+    public bool isTouching()
+    {
+        Collider2D[] touching = Physics2D.OverlapCircleAll(nearEnemyTracker.position, nearPlayerRange, character);
+        if (touching.Length > 0)
+            return true;
+        return false;
+    }
 
 }

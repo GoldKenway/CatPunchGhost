@@ -16,6 +16,7 @@ public class CharacterStats : MonoBehaviour
 
 	public int lifeCount = 3;
 
+	public PlayerMovement player;
 
 	public void GameOver()
 	{
@@ -24,6 +25,17 @@ public class CharacterStats : MonoBehaviour
 
 
 	}
+
+	public void characterHit(int hitPoints)
+    {
+		playerHealth -= hitPoints;
+		player.animator.SetBool("isHit", true);
+		if (playerHealth == 0)
+        {
+			player.animator.SetBool("isDead", true);
+			//characterDeath(lifeCount);
+        }
+    }
 
 	public void characterDeath(int lives)
 	{
@@ -49,10 +61,14 @@ public class CharacterStats : MonoBehaviour
 
 	void Update()
 	{
-		Health.text = playerHealth.ToString("0");
-		Charge.text = chargeCount.ToString("0");
-		Lives.text = lifeCount.ToString("0");
+		//Health.text = playerHealth.ToString("0");
+		//Charge.text = chargeCount.ToString("0");
+		//Lives.text = lifeCount.ToString("0");
 
 	}
 
+	void afterHit()
+    {
+		player.animator.SetBool("isHit", false);
+    }
 }
