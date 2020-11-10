@@ -5,20 +5,32 @@ using UnityEngine;
 
 public class Camera : MonoBehaviour
 {
+    public Transform target;
+    public float speed = 0.7f;
+
+    GameObject player;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        player = GameObject.FindWithTag("MainCharacter");
+
+        if (player)
+        {
+            target = player.transform;
+
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
         //GetComponent<UnityEngine.Camera>().main.transform.position.y = 0.62f;
-        float x = this.transform.position.x;
-        float z = this.transform.position.z;
-        float y = 0;
-        Vector3 newpostion = new Vector3(x, y, z); 
-        this.transform.position = newpostion;
+        
+        transform.position =  Vector3.Lerp(transform.position, new Vector3(target.position.x, transform.position.y,
+            target.position.z), speed * Time.deltaTime);
+
     }
 }
