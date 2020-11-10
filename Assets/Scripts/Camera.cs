@@ -7,7 +7,6 @@ public class Camera : MonoBehaviour
 {
     public Transform target;
     public float speed = 0.7f;
-
     GameObject player;
 
 
@@ -15,6 +14,7 @@ public class Camera : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        /*
         player = GameObject.FindWithTag("MainCharacter");
 
         if (player)
@@ -22,15 +22,21 @@ public class Camera : MonoBehaviour
             target = player.transform;
 
         }
+        */
+       
     }
 
     // Update is called once per frame
     void Update()
     {
         //GetComponent<UnityEngine.Camera>().main.transform.position.y = 0.62f;
-        
+
+        /*
         transform.position =  Vector3.Lerp(transform.position, new Vector3(target.position.x, transform.position.y,
-            target.position.z), speed * Time.deltaTime);
+          target.position.z), speed * Time.deltaTime);
+        */
+
+    
 
     }
 }
