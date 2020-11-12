@@ -56,7 +56,7 @@ public class EnemyWaveSpawner : MonoBehaviour
 
         if (nextWave + 1 > waves.Length - 1)
         {
-            nextWave = 1;
+            nextWave = -1;
             Debug.Log("All waves complete! Looping...");
         }
         nextWave++;
@@ -86,8 +86,8 @@ public class EnemyWaveSpawner : MonoBehaviour
     public class Wave
     {
         public string name;         //name of wave
-        public Transform enemy;     //enemies
-        public int count;           //count of enemies
+        public Transform[] enemy;     //enemies
+        //public int count;           //count of enemies
         public float rate;          //rate of which enemies spawn
 
 
@@ -109,9 +109,9 @@ public class EnemyWaveSpawner : MonoBehaviour
         state = SpawnState.spawning;
 
         //Spawn 
-        for (int i = 0; i < _wave.count; i++)
+        for (int i = 0; i < _wave.enemy.Length; i++)
         {
-            SpawnEnemy(_wave.enemy);
+            SpawnEnemy(_wave.enemy[i]);
             yield return new WaitForSeconds(1f / _wave.rate);
 
         }
