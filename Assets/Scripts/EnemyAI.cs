@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
@@ -38,23 +39,31 @@ public class EnemyAI : MonoBehaviour
         rb = this.GetComponent<Rigidbody2D>();
         playerObj = GameObject.FindWithTag("MainCharacter");
         player = playerObj.GetComponent<Transform>();
+        charStats = GameObject.FindWithTag("MainCharacter").GetComponent<CharacterStats>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
         Vector3 direction = player.position - transform.position;
- 
         //make it follow you
         //move it
-        direction.Normalize();
-        movement = direction;
-
+            direction.Normalize();
+            movement = direction;
+        
+        
     }
 
     private void FixedUpdate()
     {
-        moveCharacter(movement);
+        Vector3 direction = player.position - transform.position;
+
+        if (Mathf.Abs(direction.x) > 1 || Mathf.Abs(direction.y) > 2)
+        {
+            moveCharacter(movement);
+
+        }
 
     }
 
@@ -62,7 +71,7 @@ public class EnemyAI : MonoBehaviour
     {
         rb.MovePosition((Vector2)transform.position + (direction * moveSpeed * Time.deltaTime));
 
-        if (direction.x >= 0 && !facingLeft)
+        if (direction.x > 0 && facingLeft)
         {
             flip();
         }

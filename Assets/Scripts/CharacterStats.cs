@@ -28,9 +28,10 @@ public class CharacterStats : MonoBehaviour
 
 	public void characterHit(int hitPoints)
     {
+		Debug.Log("Player hit.");
 		playerHealth -= hitPoints;
 		player.animator.SetBool("isHit", true);
-		if (playerHealth == 0)
+		if (playerHealth <= 0)
         {
 			player.animator.SetBool("isDead", true);
 			//characterDeath(lifeCount);
@@ -61,9 +62,9 @@ public class CharacterStats : MonoBehaviour
 
 	void Update()
 	{
-		//Health.text = playerHealth.ToString("0");
-		//Charge.text = chargeCount.ToString("0");
-		//Lives.text = lifeCount.ToString("0");
+		Health.text = playerHealth.ToString("0");
+		Charge.text = chargeCount.ToString("0");
+		Lives.text = lifeCount.ToString("0");
 
 	}
 
@@ -71,4 +72,7 @@ public class CharacterStats : MonoBehaviour
     {
 		player.animator.SetBool("isHit", false);
     }
+
+
+    
 }
