@@ -1,16 +1,7 @@
 fileFormatVersion: 2
-guid: 4cbf66d8447dffa4a967fdeca9d5e575
+guid: a0052bf96842d4b4d8b3b8726c1d0ba4
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -2240994688644343673
-    second: BossIdle_0
-  - first:
-      213: 4422111536944459240
-    second: BossIdle_1
-  - first:
-      213: 7185010564812441981
-    second: BossIdle_2
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -50,13 +41,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 9
+  spritePivot: {x: 0.49838382, y: 0.92320234}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 256, y: 186, z: 279, w: 186}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -120,70 +111,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: BossIdle_0
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 50
-        width: 255
-        height: 351
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78811d7343366e0e0800000000000000
-      internalID: -2240994688644343673
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BossIdle_1
-      rect:
-        serializedVersion: 2
-        x: 371
-        y: 73
-        width: 255
-        height: 351
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8ed2bb4730f7e5d30800000000000000
-      internalID: 4422111536944459240
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BossIdle_2
-      rect:
-        serializedVersion: 2
-        x: 648
-        y: 61
-        width: 255
-        height: 351
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d7903177a0946b360800000000000000
-      internalID: 7185010564812441981
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []

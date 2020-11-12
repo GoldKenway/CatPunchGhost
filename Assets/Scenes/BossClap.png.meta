@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: 78ef0a098f47ca34da541453c1eccaf5
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -7345528945641829342
+    second: BossClap_0
+  - first:
+      213: 6970977210288555812
+    second: BossClap_1
+  - first:
+      213: -6200481309327033803
+    second: BossClap_2
+  - first:
+      213: -6357880876337821828
+    second: BossClap_3
+  - first:
+      213: -2144072153758008735
+    second: BossClap_4
+  - first:
+      213: -8713463966909209990
+    second: BossClap_5
+  - first:
+      213: -3955922529394976085
+    second: BossClap_6
+  - first:
+      213: -9164491723779236449
+    second: BossClap_7
+  - first:
+      213: 6057833625589657453
+    second: BossClap_8
+  - first:
+      213: -7092461431102584272
+    second: BossClap_9
+  - first:
+      213: 740456216305252565
+    second: BossClap_10
+  - first:
+      213: -5562354434418459243
+    second: BossClap_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +77,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +109,297 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: BossClap_0
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 603
+        width: 382
+        height: 357
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c4bab97507f0a90800000000000000
+      internalID: -7345528945641829342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossClap_1
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 607
+        width: 708
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427c794c6d2edb060800000000000000
+      internalID: 6970977210288555812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossClap_2
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 570
+        width: 483
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53afc19c91773f9a0800000000000000
+      internalID: -6200481309327033803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossClap_3
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 560
+        width: 475
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7782a9470544c7a0800000000000000
+      internalID: -6357880876337821828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossClap_4
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 575
+        width: 6
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a72766cb9be32e0800000000000000
+      internalID: -2144072153758008735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossClap_5
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 596
+        width: 312
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72e53120be831780800000000000000
+      internalID: -8713463966909209990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossClap_6
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 95
+        width: 310
+        height: 391
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa927c3b6db919c0800000000000000
+      internalID: -3955922529394976085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossClap_7
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 74
+        width: 6
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d9121355f21d080800000000000000
+      internalID: -9164491723779236449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossClap_8
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 57
+        width: 475
+        height: 434
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f20b1369fb11450800000000000000
+      internalID: 6057833625589657453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossClap_9
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 70
+        width: 484
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ac8f7e7e3829d90800000000000000
+      internalID: -7092461431102584272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossClap_10
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 106
+        width: 708
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8ba907101a64a00800000000000000
+      internalID: 740456216305252565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossClap_11
+      rect:
+        serializedVersion: 2
+        x: 2511
+        y: 103
+        width: 383
+        height: 356
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d3badcc1c8ec2b0800000000000000
+      internalID: -5562354434418459243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

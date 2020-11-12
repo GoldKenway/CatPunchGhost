@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - MainCharacter
   - ProgressBar
+  - CameraPoint
   layers:
   - Default
   - TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   - 
   - enemy
   - MainCharacter
-  - 
+  - Bosses
   - 
   - 
   - 
@@ -46,6 +47,9 @@ TagManager:
     locked: 0
   - name: Background
     uniqueID: 3480730865
+    locked: 0
+  - name: Buildings
+    uniqueID: 3500925277
     locked: 0
   - name: Enemies
     uniqueID: 2015537999
