@@ -122,12 +122,12 @@ TextureImporter:
       name: LVL1BGfloor_0
       rect:
         serializedVersion: 2
-        x: 298
+        x: 302
         y: 465
         width: 5007
         height: 91
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50000066}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -144,11 +144,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 298
-        y: 93
+        y: 89
         width: 5007
         height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5026712, y: 1.0201211}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

@@ -629,7 +629,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &293961979
 Transform:
   m_ObjectHideFlags: 0
@@ -638,8 +638,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 293961977}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.189805, y: -6.4142265, z: 19.015257}
-  m_LocalScale: {x: 1, y: 3.2490535, z: 1}
+  m_LocalPosition: {x: 5.7, y: -2.199, z: 19.015257}
+  m_LocalScale: {x: 1, y: 3.4262033, z: 1}
   m_Children: []
   m_Father: {fileID: 890136168}
   m_RootOrder: 5
@@ -1005,7 +1005,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 641750192}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.08, y: 0.14, z: -19.015257}
+  m_LocalPosition: {x: 5.51, y: 0.65, z: -19.015257}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1678,7 +1678,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1743145964}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.46, y: -2.79, z: -4.8217225}
+  m_LocalPosition: {x: 14.33, y: -1.78, z: -4.8217225}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1883,11 +1883,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3652820328163784439, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.018
+      value: -1.281
       objectReference: {fileID: 0}
     - target: {fileID: 3652820328163784439, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.52
+      value: -0.569
       objectReference: {fileID: 0}
     - target: {fileID: 3652820328163784439, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1927,11 +1927,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3652820328163784439, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.62
+      value: 4.9127965
       objectReference: {fileID: 0}
     - target: {fileID: 3652820328163784439, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.48
+      value: 3.5643594
       objectReference: {fileID: 0}
     - target: {fileID: 3652820328476288192, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
       propertyPath: waves.Array.data[0].enemy.Array.size
@@ -2010,13 +2010,17 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7844725936615172556, guid: 3fa42783cd2d4e344a99ed2a1049d3ff, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2603426348107239209, guid: 655891e4cac32704aa2466291cb1afd0, type: 3}
     - target: {fileID: 7844725936615172557, guid: 3fa42783cd2d4e344a99ed2a1049d3ff, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.41
+      value: 5.6
       objectReference: {fileID: 0}
     - target: {fileID: 7844725936615172557, guid: 3fa42783cd2d4e344a99ed2a1049d3ff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.05
+      value: -2.71
       objectReference: {fileID: 0}
     - target: {fileID: 7844725936615172557, guid: 3fa42783cd2d4e344a99ed2a1049d3ff, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2056,11 +2060,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7844725936615172557, guid: 3fa42783cd2d4e344a99ed2a1049d3ff, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.48
+      value: 3.940605
       objectReference: {fileID: 0}
     - target: {fileID: 7844725936615172557, guid: 3fa42783cd2d4e344a99ed2a1049d3ff, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.29
+      value: 2.802887
       objectReference: {fileID: 0}
     - target: {fileID: 7844725936615172558, guid: 3fa42783cd2d4e344a99ed2a1049d3ff, type: 3}
       propertyPath: m_Constraints
