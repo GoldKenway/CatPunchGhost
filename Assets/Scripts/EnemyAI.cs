@@ -17,7 +17,7 @@ public class EnemyAI : MonoBehaviour
     public Transform nearEnemyTracker;
     public Transform AttackPoint;
     public float nearPlayerRange = 1f;
-    public float attackRange = .5f;
+    public float attackRange = .75f;
 
 
     public LayerMask character;
@@ -58,8 +58,7 @@ public class EnemyAI : MonoBehaviour
     private void FixedUpdate()
     {
         Vector3 direction = player.position - transform.position;
-
-        if (Mathf.Abs(direction.x) > 1 || Mathf.Abs(direction.y) > 2)
+        if (Mathf.Abs(direction.x) > 1.7 || Mathf.Abs(direction.y) > 2)
         {
             moveCharacter(movement);
 
