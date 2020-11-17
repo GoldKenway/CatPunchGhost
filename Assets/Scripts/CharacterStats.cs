@@ -18,6 +18,8 @@ public class CharacterStats : MonoBehaviour
 
 	public PlayerMovement player;
 
+	GameObject healthPoints;
+
 	public void GameOver()
 	{
 
@@ -30,6 +32,7 @@ public class CharacterStats : MonoBehaviour
     {
 		Debug.Log("Player hit.");
 		playerHealth -= hitPoints;
+		Health.text = playerHealth + "";
 		player.animator.SetBool("isHit", true);
 		if (playerHealth <= 0)
         {
@@ -62,7 +65,7 @@ public class CharacterStats : MonoBehaviour
 
 	void Update()
 	{
-		Health.text = playerHealth.ToString("0");
+		//Health.text = playerHealth.ToString("0");
 		Charge.text = chargeCount.ToString("0");
 		Lives.text = lifeCount.ToString("0");
 
@@ -73,6 +76,12 @@ public class CharacterStats : MonoBehaviour
 		player.animator.SetBool("isHit", false);
     }
 
+    private void Start()
+    {
+		playerHealth = 500;
+		Health.text = playerHealth + "";
+		healthPoints = GameObject.FindGameObjectWithTag("CharacterStats");
+		Health = healthPoints.GetComponent<Text>();
+    }
 
-    
 }

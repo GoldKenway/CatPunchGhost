@@ -75,7 +75,7 @@ public class Level1Boss : MonoBehaviour
     void remove()
     {
         Destroy(gameObject, 10);
-        levelHandler.GetComponent<SceneHandler>().FadeToNextLevel();
+        //levelHandler.GetComponent<SceneHandler>().FadeToNextLevel();
     }
 
     public void EndAttack()
