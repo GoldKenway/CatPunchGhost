@@ -52,6 +52,9 @@ public class EnemyGhost : MonoBehaviour
         {
             Die();
         }
+        a.hitCount += 1;
+        a.currentTime = 3f;
+        
     }
 
 
@@ -75,7 +78,7 @@ public class EnemyGhost : MonoBehaviour
 
     void remove()
     {
-        Destroy(gameObject, 0);
+        Destroy(gameObject, 5);
     }
 
     public void EndAttack()
