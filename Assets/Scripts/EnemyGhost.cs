@@ -52,6 +52,9 @@ public class EnemyGhost : MonoBehaviour
         {
             Die();
         }
+        a.hitCount += 1;
+        a.currentTime = 3f;
+        
     }
 
 
