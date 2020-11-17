@@ -1,22 +1,16 @@
 fileFormatVersion: 2
-guid: c3b0928cd2eb6824fb91c7802cb67aaa
+guid: 23b03134ef2082f4fb76876fbe1e0ff5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8539596877004526393
-    second: BigGhostDeath_0
+      213: -5159475528927839335
+    second: SmallGhostIdle_0
   - first:
-      213: -7236164680354609837
-    second: BigGhostDeath_1
+      213: -6557464337059954331
+    second: SmallGhostIdle_1
   - first:
-      213: 6990219067039569190
-    second: BigGhostDeath_2
-  - first:
-      213: 7682254303306206821
-    second: BigGhostDeath_3
-  - first:
-      213: 2272895141729989019
-    second: BigGhostDeath_4
+      213: 5194249418013094417
+    second: SmallGhostIdle_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -61,7 +55,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 180
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -104,106 +98,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BigGhostDeath_0
+      name: SmallGhostIdle_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 25
-        width: 85
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4
+        y: 13
+        width: 48
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cc2c1592e14d7980800000000000000
-      internalID: -8539596877004526393
+      spriteID: 99b7feea75cd568b0800000000000000
+      internalID: -5159475528927839335
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BigGhostDeath_1
+      name: SmallGhostIdle_1
       rect:
         serializedVersion: 2
-        x: 121
-        y: 25
-        width: 101
-        height: 156
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 74
+        y: 13
+        width: 48
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3554c33ef8af39b90800000000000000
-      internalID: -7236164680354609837
+      spriteID: 561cf3aade43ff4a0800000000000000
+      internalID: -6557464337059954331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BigGhostDeath_2
+      name: SmallGhostIdle_2
       rect:
         serializedVersion: 2
-        x: 224
-        y: 37
-        width: 152
-        height: 116
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 138
+        y: 13
+        width: 48
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6255e09a43f320160800000000000000
-      internalID: 6990219067039569190
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BigGhostDeath_3
-      rect:
-        serializedVersion: 2
-        x: 363
-        y: 0
-        width: 172
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56e48c62699dc9a60800000000000000
-      internalID: 7682254303306206821
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BigGhostDeath_4
-      rect:
-        serializedVersion: 2
-        x: 545
-        y: 0
-        width: 156
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b91f68ec612fa8f10800000000000000
-      internalID: 2272895141729989019
+      spriteID: 112337b435ea51840800000000000000
+      internalID: 5194249418013094417
       vertices: []
       indices: 
       edges: []
