@@ -9,7 +9,7 @@ public class EnemyAI : MonoBehaviour
     private Rigidbody2D rb;
     public Transform player;
     public GameObject playerObj;
-    private float moveSpeed = .6f;
+    public float moveSpeed = .6f;
     private Vector2 movement;
     public Animator animator;
 
@@ -18,6 +18,7 @@ public class EnemyAI : MonoBehaviour
     public Transform AttackPoint;
     public float nearPlayerRange = 1f;
     public float attackRange = .75f;
+    public int damage;
 
 
     public LayerMask character;
@@ -107,7 +108,7 @@ public class EnemyAI : MonoBehaviour
         foreach(Collider2D MainCharacter in playableCharacter)
         {
             Debug.Log("Ghost hit player.");
-            charStats.characterHit(50);
+            charStats.characterHit(damage);
 
         }
 

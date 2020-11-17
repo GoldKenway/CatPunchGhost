@@ -1252,7 +1252,7 @@ GameObject:
   - component: {fileID: 1061555234}
   m_Layer: 5
   m_Name: HealthPoints
-  m_TagString: Untagged
+  m_TagString: CharacterStats
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1309,7 +1309,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: 500
 --- !u!222 &1061555235
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1864,7 +1864,7 @@ PrefabInstance:
     - target: {fileID: 3652820328476288192, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
       propertyPath: waves.Array.data[0].enemy.Array.data[0]
       value: 
-      objectReference: {fileID: 7844725936615172557, guid: 3fa42783cd2d4e344a99ed2a1049d3ff, type: 3}
+      objectReference: {fileID: 102889777641500861, guid: f966d59cf6c606d45a839fed39fe8555, type: 3}
     - target: {fileID: 3652820328476288192, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
       propertyPath: waves.Array.data[1].enemy.Array.data[0]
       value: 
@@ -1876,15 +1876,15 @@ PrefabInstance:
     - target: {fileID: 3652820328476288192, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
       propertyPath: waves.Array.data[2].enemy.Array.data[0]
       value: 
-      objectReference: {fileID: 7844725936615172557, guid: 3fa42783cd2d4e344a99ed2a1049d3ff, type: 3}
+      objectReference: {fileID: 4785647648186244728, guid: 52972795018497d45b22180f37a5f5e9, type: 3}
     - target: {fileID: 3652820328476288192, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
       propertyPath: waves.Array.data[2].enemy.Array.data[1]
       value: 
-      objectReference: {fileID: 7844725936615172557, guid: 3fa42783cd2d4e344a99ed2a1049d3ff, type: 3}
+      objectReference: {fileID: 4785647648186244728, guid: 52972795018497d45b22180f37a5f5e9, type: 3}
     - target: {fileID: 3652820328476288192, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
       propertyPath: waves.Array.data[2].enemy.Array.data[2]
       value: 
-      objectReference: {fileID: 7844725936615172557, guid: 3fa42783cd2d4e344a99ed2a1049d3ff, type: 3}
+      objectReference: {fileID: 4785647648186244728, guid: 52972795018497d45b22180f37a5f5e9, type: 3}
     - target: {fileID: 3652820328476288192, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
       propertyPath: m_Enabled
       value: 1

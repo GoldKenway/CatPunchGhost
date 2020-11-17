@@ -185,7 +185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Progress: {fileID: 0}
   animator: {fileID: 7844725936615172553}
-  maxHealth: 3
+  maxHealth: 5
   Deaths: 0
   enemyAI: {fileID: 3282908091412333768}
 --- !u!61 &7844725936615172552
@@ -271,11 +271,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 3652820328163784439, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
   playerObj: {fileID: 3652820328163784437, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
+  moveSpeed: 0.75
   animator: {fileID: 7844725936615172553}
   nearEnemyTracker: {fileID: 7844725936239702827}
   AttackPoint: {fileID: 7844725936595881813}
   nearPlayerRange: 1.2
   attackRange: 0.75
+  damage: 50
   character:
     serializedVersion: 2
     m_Bits: 512
