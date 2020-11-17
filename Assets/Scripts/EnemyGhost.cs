@@ -52,8 +52,8 @@ public class EnemyGhost : MonoBehaviour
         {
             Die();
         }
-        a.hitCount += 1;
-        a.currentTime = 3f;
+        ComboCounter.hitCount += 1;
+        ComboCounter.currentTime = 3f;
         
     }
 
