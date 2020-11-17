@@ -12,11 +12,16 @@ public class CharacterStats : MonoBehaviour
 
 	private int playerHealth = 500;
 
-	public int chargeCount = 0;
+	private int chargeCount = 3;
 
-	public int lifeCount = 3;
+	private int lifeCount = 0;
 
 	public PlayerMovement player;
+
+
+
+
+
 
 	public void GameOver()
 	{
