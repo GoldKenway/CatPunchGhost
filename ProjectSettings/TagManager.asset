@@ -8,7 +8,6 @@ TagManager:
   - MainCharacter
   - ProgressBar
   - CameraPoint
-  - LevelCamera
   layers:
   - Default
   - TransparentFX

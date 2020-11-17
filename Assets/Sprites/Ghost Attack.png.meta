@@ -131,6 +131,90 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+      name: Small_Ghost_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 396
+        width: 32
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526a8be1be4924450800000000000000
+      internalID: 6071578985202492965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Ghost_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 402
+        width: 34
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cee18f008fc20980800000000000000
+      internalID: -8574062591637066042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Ghost_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 406
+        width: 38
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682466f5d7d0a3510800000000000000
+      internalID: 1529549855568315014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small_Ghost_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 402
+        width: 34
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c4df3441e35d200800000000000000
+      internalID: 204137614876167300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: Normal_Ghost_Attack_1
       rect:
         serializedVersion: 2
@@ -210,6 +294,90 @@ TextureImporter:
       bones: []
       spriteID: c46f29c90ad821780800000000000000
       internalID: -8713746608047327668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big_Ghost_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 46
+        width: 87
+        height: 172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae34a66b4158f8d0800000000000000
+      internalID: -2812408583006437725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big_Ghost_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 46
+        width: 96
+        height: 165
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc35b3747eac46d40800000000000000
+      internalID: 5576805333272843212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big_Ghost_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 59
+        width: 103
+        height: 130
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa8c6aee4d9671a0800000000000000
+      internalID: -6812084424085304665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big_Ghost_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 48
+        width: 78
+        height: 161
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41977ce3d2045c30800000000000000
+      internalID: 4347102649547985226
       vertices: []
       indices: 
       edges: []

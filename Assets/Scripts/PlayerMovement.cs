@@ -6,7 +6,6 @@ public class PlayerMovement : MonoBehaviour
 {
     public GameObject player;
 
-
     public Animator animator;
     private Rigidbody2D _rigidbody;
     public Transform PunchAttackPoint;
@@ -39,6 +38,8 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+
         if(Time.time - lastAttackTime > maxComboDelay)
         {
             hitCount = 0;
@@ -74,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
             player.GetComponent<Mov>().vspeed = 1;
 
         }
-       
+    
 
 
     
@@ -165,6 +166,4 @@ public class PlayerMovement : MonoBehaviour
             return;
         Gizmos.DrawWireSphere(PunchAttackPoint.position, attackRange);
     }
-
-
 }

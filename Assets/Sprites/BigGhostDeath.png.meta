@@ -1,22 +1,7 @@
 fileFormatVersion: 2
 guid: c3b0928cd2eb6824fb91c7802cb67aaa
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -8539596877004526393
-    second: BigGhostDeath_0
-  - first:
-      213: -7236164680354609837
-    second: BigGhostDeath_1
-  - first:
-      213: 6990219067039569190
-    second: BigGhostDeath_2
-  - first:
-      213: 7682254303306206821
-    second: BigGhostDeath_3
-  - first:
-      213: 2272895141729989019
-    second: BigGhostDeath_4
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -56,7 +41,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -88,126 +73,9 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: BigGhostDeath_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 25
-        width: 85
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7cc2c1592e14d7980800000000000000
-      internalID: -8539596877004526393
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BigGhostDeath_1
-      rect:
-        serializedVersion: 2
-        x: 121
-        y: 25
-        width: 101
-        height: 156
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3554c33ef8af39b90800000000000000
-      internalID: -7236164680354609837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BigGhostDeath_2
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 37
-        width: 152
-        height: 116
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6255e09a43f320160800000000000000
-      internalID: 6990219067039569190
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BigGhostDeath_3
-      rect:
-        serializedVersion: 2
-        x: 363
-        y: 0
-        width: 172
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56e48c62699dc9a60800000000000000
-      internalID: 7682254303306206821
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BigGhostDeath_4
-      rect:
-        serializedVersion: 2
-        x: 545
-        y: 0
-        width: 156
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b91f68ec612fa8f10800000000000000
-      internalID: 2272895141729989019
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
