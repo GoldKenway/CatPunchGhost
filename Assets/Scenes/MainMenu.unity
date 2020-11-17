@@ -1610,6 +1610,7 @@ GameObject:
   - component: {fileID: 1743145965}
   - component: {fileID: 1743145968}
   - component: {fileID: 1743145967}
+  - component: {fileID: 1743145969}
   m_Layer: 10
   m_Name: Boss1
   m_TagString: Untagged
@@ -1676,8 +1677,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1743145964}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.33, y: -1.78, z: -4.8217225}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 13.99, y: -0.05, z: -4.8217225}
+  m_LocalScale: {x: 1.5438181, y: 1.5299878, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -1722,6 +1723,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1743145969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743145964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77b021ffbddfa5547b5a0c2bbf71319a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelHandler: {fileID: 7834587715068289068, guid: 48745b7ac815cb7489e22753bef05bd7, type: 3}
+  Progress: {fileID: 283954629}
+  animator: {fileID: 1743145967}
+  Deaths: 0
+  enemyAI: {fileID: 7844725936789322725}
 --- !u!1001 &3652820327502026573
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1902,6 +1920,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelChanger
       objectReference: {fileID: 0}
+    - target: {fileID: 7834587715068289068, guid: 48745b7ac815cb7489e22753bef05bd7, type: 3}
+      propertyPath: m_TagString
+      value: levelhandler
+      objectReference: {fileID: 0}
     - target: {fileID: 7834587715068289235, guid: 48745b7ac815cb7489e22753bef05bd7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 351.8357
@@ -2053,6 +2075,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3fa42783cd2d4e344a99ed2a1049d3ff, type: 3}
+--- !u!114 &7844725936789322725 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3282908091412333768, guid: 3fa42783cd2d4e344a99ed2a1049d3ff, type: 3}
+  m_PrefabInstance: {fileID: 7844725936789322724}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceef2eb3f2e82744d89b6a07f09e358c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &9135432290142668381
 PrefabInstance:
   m_ObjectHideFlags: 0

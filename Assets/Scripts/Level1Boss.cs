@@ -1,14 +1,15 @@
-﻿using System.CodeDom;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyGhost : MonoBehaviour
+public class Level1Boss : MonoBehaviour
 {
-    public GameObject Progress;
+
+    public GameObject levelHandler;
+    int BossHealth;
+
+    public GameObject Progress; // gets progress bar stuff ([something cool like progress bar being the boss healthbar)
     public Animator animator;
-    public int maxHealth = 3;
-    int currentHealth = 3;
     bool isDead = false;
     public int Deaths;
     bool touchingPlayer;
@@ -22,13 +23,14 @@ public class EnemyGhost : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        currentHealth = maxHealth;
+        Progress = GameObject.FindWithTag("ProgressBar");
+        BossHealth = Progress.GetComponent <ProgressBar>().GetProgress();
+        levelHandler = GameObject.FindWithTag("levelhandler");
     }
 
     // Update is called once per frame
     void Update()
     {
-        Progress = GameObject.FindWithTag("ProgressBar");
         if (enemyAI.isTouching())
         {
             if (Time.time - lastAttackTime > 2)
@@ -47,8 +49,8 @@ public class EnemyGhost : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        currentHealth -= damage;
-        if (currentHealth <= 0)
+        BossHealth -= damage;
+        if (BossHealth <= 0)
         {
             Die();
         }
@@ -66,24 +68,19 @@ public class EnemyGhost : MonoBehaviour
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
 
-        Progress.GetComponent<ProgressBar>().EnemiesKilled++;
-        Progress.GetComponent<ProgressBar>().SetProgress(Progress.GetComponent<ProgressBar>().EnemiesKilled);
-
         remove();
 
     }
 
     void remove()
     {
-        Destroy(gameObject, 5);
+        Destroy(gameObject, 10);
+        levelHandler.GetComponent<SceneHandler>().FadeToNextLevel();
     }
 
     public void EndAttack()
     {
         animator.SetBool("Attack", false);
     }
-
-
-
 
 }

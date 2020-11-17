@@ -23,6 +23,13 @@ public class ProgressBar : MonoBehaviour
 
 	}
 
+	public int GetProgress()
+	{
+
+		return EnemiesKilled;
+
+	}
+
 
 
 }

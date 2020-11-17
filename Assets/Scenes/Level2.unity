@@ -684,7 +684,7 @@ GameObject:
   m_Component:
   - component: {fileID: 535295443}
   - component: {fileID: 535295444}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: LightSource
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -699,8 +699,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 535295442}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15.848, y: -15.32, z: 19.015257}
-  m_LocalScale: {x: 2.5851188, y: 2.4224057, z: 1}
+  m_LocalPosition: {x: -15.8, y: -15.295, z: 19.015257}
+  m_LocalScale: {x: 2.5851188, y: 2.4107044, z: 1}
   m_Children: []
   m_Father: {fileID: 787339152}
   m_RootOrder: 0
@@ -1014,8 +1014,6 @@ MonoBehaviour:
   Health: {fileID: 1231098039}
   Charge: {fileID: 115728407}
   Lives: {fileID: 1799672014}
-  chargeCount: 0
-  lifeCount: 3
   player: {fileID: 0}
 --- !u!1 &683719700
 GameObject:

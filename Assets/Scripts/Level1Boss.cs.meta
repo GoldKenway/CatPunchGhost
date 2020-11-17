@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 77b021ffbddfa5547b5a0c2bbf71319a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - levelHandler: {fileID: 7834587715068289068, guid: 48745b7ac815cb7489e22753bef05bd7, type: 3}
+  - Progress: {instanceID: 0}
+  - animator: {instanceID: 0}
+  - enemyAI: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
