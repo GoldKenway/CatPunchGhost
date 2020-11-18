@@ -13,6 +13,7 @@ public class Level1Boss : MonoBehaviour
     bool isDead = false;
     public int Deaths;
     bool touchingPlayer;
+    bool BossDead = false;
 
 
     float lastAttackTime = 3;
@@ -33,40 +34,43 @@ public class Level1Boss : MonoBehaviour
     void Update()
     {
 
-    public void TakeDamage(int damage)
-    {
-        BossHealth -= damage;
-        if (BossHealth <= 0)
+    }
+        public bool isBossDead()
         {
-            Die();
+            if (BossHealth <= 0)
+            {
+                BossDead = true;
+            }
+
+        return BossDead;
         }
-    }
+    
 
+        void Die()
+        {
 
-    void Die()
-    {
+            Debug.Log("Enemy died!");
+            isDead = true;
+            animator.SetBool("isDead", true);
 
-        Debug.Log("Enemy died!");
-        isDead = true;
-        animator.SetBool("isDead", true);
+            gameObject.tag = "Untagged";
+            GetComponent<Collider2D>().enabled = false;
+            this.enabled = false;
 
-        gameObject.tag = "Untagged";
-        GetComponent<Collider2D>().enabled = false;
-        this.enabled = false;
+            remove();
 
-        remove();
+        }
 
-    }
+        public void remove()
+        {
+            //Destroy(gameObject, 10);
+            levelHandler.GetComponent<SceneHandler>().FadeToNextLevel();
+        }
 
-    void remove()
-    {
-        Destroy(gameObject, 10);
-        levelHandler.GetComponent<SceneHandler>().FadeToNextLevel();
-    }
+        public void EndAttack()
+        {
+            animator.SetBool("Attack", false);
+        }
 
-    public void EndAttack()
-    {
-        animator.SetBool("Attack", false);
-    }
 
 }

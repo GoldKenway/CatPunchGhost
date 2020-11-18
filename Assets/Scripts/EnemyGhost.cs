@@ -12,6 +12,9 @@ public class EnemyGhost : MonoBehaviour
     bool isDead = false;
     public int Deaths;
     bool touchingPlayer;
+    public GameObject levelHandler;
+
+    GameObject Boss1;
 
 
     float lastAttackTime = 3;
@@ -23,6 +26,8 @@ public class EnemyGhost : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
+        Boss1 = GameObject.FindWithTag("Enemy");
+        levelHandler = GameObject.FindWithTag("levelhandler");
     }
 
     // Update is called once per frame
@@ -79,6 +84,11 @@ public class EnemyGhost : MonoBehaviour
     void remove()
     {
         Destroy(gameObject, 0);
+
+        if (Boss1.GetComponent<Level1Boss>().isBossDead() == true)
+        {
+            levelHandler.GetComponent<SceneHandler>().FadeToNextLevel();
+        }
     }
 
     public void EndAttack()
