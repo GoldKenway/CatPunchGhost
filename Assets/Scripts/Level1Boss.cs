@@ -32,21 +32,6 @@ public class Level1Boss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (enemyAI.isTouching())
-        {
-            if (Time.time - lastAttackTime > 2)
-            {
-                lastAttackTime = Time.time;
-                enemyAI.Attack();
-                animator.SetBool("Attack", true);
-            }
-        }
-        if (Input.GetKeyDown(KeyCode.G))
-        {
-            enemyAI.Attack();
-            animator.SetBool("Attack", true);
-        }
-    }
 
     public void TakeDamage(int damage)
     {
