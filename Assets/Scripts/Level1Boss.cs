@@ -24,7 +24,8 @@ public class Level1Boss : MonoBehaviour
     void Start()
     {
         Progress = GameObject.FindWithTag("ProgressBar");
-        BossHealth = Progress.GetComponent <ProgressBar>().GetProgress();
+        //BossHealth = Progress.GetComponent <ProgressBar>().GetProgress();
+        BossHealth = 5;
         levelHandler = GameObject.FindWithTag("levelhandler");
     }
 
@@ -75,7 +76,7 @@ public class Level1Boss : MonoBehaviour
     void remove()
     {
         Destroy(gameObject, 10);
-        //levelHandler.GetComponent<SceneHandler>().FadeToNextLevel();
+        levelHandler.GetComponent<SceneHandler>().FadeToNextLevel();
     }
 
     public void EndAttack()

@@ -8,7 +8,7 @@ public class EnemyGhost : MonoBehaviour
     public GameObject Progress;
     public Animator animator;
     public int maxHealth = 3;
-    int currentHealth = 3;
+    int currentHealth;
     bool isDead = false;
     public int Deaths;
     bool touchingPlayer;
