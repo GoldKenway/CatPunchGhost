@@ -24,6 +24,16 @@ public class SceneHandler : MonoBehaviour
         Debug.Log("LoadLevel1");
     }
 
+
+    public void FadeToNextLevel()
+    {
+
+        FadeToLevel(SceneManager.GetActiveScene().buildIndex + 1);
+
+    }
+
+
+
     public void FadeToLevel(int levelIndex)
     {
         animator.SetTrigger("FadeOut");

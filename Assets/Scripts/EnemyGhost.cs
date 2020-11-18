@@ -78,7 +78,7 @@ public class EnemyGhost : MonoBehaviour
 
     void remove()
     {
-        Destroy(gameObject, 5);
+        Destroy(gameObject, 0);
     }
 
     public void EndAttack()

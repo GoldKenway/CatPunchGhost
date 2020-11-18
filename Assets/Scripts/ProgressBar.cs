@@ -4,9 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 public class ProgressBar : MonoBehaviour
 {
-
+	public Transform Boss;
 	public int EnemiesKilled;
-
+	private int EnemyTotal = 10;
 
 	public Slider slider;
 
@@ -16,10 +16,19 @@ public class ProgressBar : MonoBehaviour
 
 	}
 
+	void Start()
+	{
+		SetMaxEnemy(EnemyTotal);
+	}
 
 	public void SetProgress(int EnemiesKilled)
 	{
 		slider.value = EnemiesKilled;
+		if (EnemiesKilled >= EnemyTotal)
+		{
+			Instantiate(Boss, Boss.position, Boss.rotation);
+
+		}
 
 	}
 
