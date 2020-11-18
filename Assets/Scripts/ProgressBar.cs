@@ -6,7 +6,7 @@ public class ProgressBar : MonoBehaviour
 {
 	public Transform Boss;
 	public int EnemiesKilled;
-	private int EnemyTotal = 9;
+	public int EnemyTotal = 9;
 
 	public Slider slider;
 
@@ -24,7 +24,7 @@ public class ProgressBar : MonoBehaviour
 	public void SetProgress(int EnemiesKilled)
 	{
 		slider.value = EnemiesKilled;
-		if (EnemiesKilled >= EnemyTotal)
+		if (EnemiesKilled == EnemyTotal)
 		{
 			Instantiate(Boss, Boss.position, Boss.rotation);
 

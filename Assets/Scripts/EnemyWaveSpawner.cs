@@ -18,7 +18,7 @@ public class EnemyWaveSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Progress.getComponent<ProgressBar>().GetProgress() < Progress.GetComponent<ProgressBar>().EnemyTotal)
+        if (Progress.GetComponent<ProgressBar>().GetProgress() < Progress.GetComponent<ProgressBar>().EnemyTotal)
         {
             if (state == SpawnState.waiting)
             {
