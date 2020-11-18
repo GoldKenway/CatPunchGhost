@@ -78,7 +78,7 @@ GameObject:
   - component: {fileID: 5246610966099983005}
   m_Layer: 8
   m_Name: Boss1
-  m_TagString: Enemy
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -203,6 +203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelHandler: {fileID: 7834587715068289068, guid: 48745b7ac815cb7489e22753bef05bd7, type: 3}
+  BossHealth: 9
   Progress: {fileID: 0}
   animator: {fileID: 3465652784844267700}
   Deaths: 0
@@ -272,6 +273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Progress: {fileID: 0}
   animator: {fileID: 3465652784844267700}
-  maxHealth: 15
+  maxHealth: 0
   Deaths: 0
+  levelHandler: {fileID: 0}
   enemyAI: {fileID: 7259217232049797434}

@@ -26,7 +26,7 @@ public class EnemyGhost : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
-        Boss1 = GameObject.FindWithTag("Enemy");
+        Boss1 = GameObject.FindWithTag("Boss");
         levelHandler = GameObject.FindWithTag("levelhandler");
     }
 
