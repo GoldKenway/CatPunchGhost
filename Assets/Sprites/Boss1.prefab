@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3465652784844267700}
   - component: {fileID: 3465652784844267690}
   - component: {fileID: 3465652784844267689}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Boss1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,6 +139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelHandler: {fileID: 7834587715068289068, guid: 48745b7ac815cb7489e22753bef05bd7, type: 3}
+  BossHealth: 0
   Progress: {fileID: 0}
   animator: {fileID: 3465652784844267700}
   Deaths: 0

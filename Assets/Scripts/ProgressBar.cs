@@ -6,7 +6,7 @@ public class ProgressBar : MonoBehaviour
 {
 	public Transform Boss;
 	public int EnemiesKilled;
-	private int EnemyTotal = 10;
+	private int EnemyTotal = 9;
 
 	public Slider slider;
 
