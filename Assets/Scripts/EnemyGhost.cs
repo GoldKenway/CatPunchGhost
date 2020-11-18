@@ -83,10 +83,13 @@ public class EnemyGhost : MonoBehaviour
 
     void remove()
     {
+        Debug.Log("remove called");
         Destroy(gameObject, 0);
+        Boss1.GetComponent<Level1Boss>().BossDead = true;
 
-        if(Boss1.GetComponent<Level1Boss>().isBossDead() == true)
+            if (Boss1.GetComponent<Level1Boss>().BossDead == true)
         {
+            Debug.Log("remove Boss called");
             levelHandler.GetComponent<SceneHandler>().FadeToNextLevel();
         }
     }

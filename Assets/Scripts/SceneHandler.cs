@@ -27,7 +27,6 @@ public class SceneHandler : MonoBehaviour
 
     public void FadeToNextLevel()
     {
-
         FadeToLevel(SceneManager.GetActiveScene().buildIndex + 1);
         //FadeToLevel(1);
 

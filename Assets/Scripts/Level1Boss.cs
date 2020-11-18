@@ -13,7 +13,7 @@ public class Level1Boss : MonoBehaviour
     bool isDead = false;
     public int Deaths;
     bool touchingPlayer;
-    bool BossDead = false;
+    public bool BossDead = false;
 
 
     float lastAttackTime = 3;
@@ -39,6 +39,7 @@ public class Level1Boss : MonoBehaviour
         {
             if (BossHealth <= 0)
             {
+            Debug.Log("isBossDead called");
                 BossDead = true;
             }
 
