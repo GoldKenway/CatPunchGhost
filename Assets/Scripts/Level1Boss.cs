@@ -6,7 +6,7 @@ public class Level1Boss : MonoBehaviour
 {
 
     public GameObject levelHandler;
-    public int BossHealth;
+    int BossHealth;
 
     public GameObject Progress; // gets progress bar stuff ([something cool like progress bar being the boss healthbar)
     public Animator animator;

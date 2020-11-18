@@ -154,9 +154,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Debug.Log("We hit " + enemy.name);
             enemy.GetComponent<EnemyGhost>().TakeDamage(hit);
-            enemy.GetComponent<Level1Boss>().TakeDamage(hit);
         }
-        
 
     }
 

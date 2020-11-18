@@ -542,7 +542,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 9
+  m_MaxValue: 12
   m_WholeNumbers: 1
   m_Value: 0
   m_OnValueChanged:
@@ -688,7 +688,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cdc3686982c68b40bb75ea56bf0f956, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Progress: {fileID: 0}
   waves:
   - name: 1
     enemy:
@@ -1031,7 +1030,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.2, y: 0.73, z: -2.5}
+  m_LocalPosition: {x: 13.56, y: 0.73, z: -2.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 325375687}
@@ -1243,7 +1242,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 641750192}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.06, y: 0.42, z: -19.015257}
+  m_LocalPosition: {x: 5.51, y: 0.65, z: -19.015257}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1889,7 +1888,7 @@ GameObject:
   - component: {fileID: 1150103426}
   m_Layer: 0
   m_Name: LevelChanger
-  m_TagString: levelhandler
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2349,7 +2348,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3652820328476288192, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
       propertyPath: waves.Array.data[3].name
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3652820328476288192, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
       propertyPath: waves.Array.data[3].enemy.Array.data[0]
@@ -2369,7 +2368,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3652820328476288192, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
       propertyPath: waves.Array.data[4].name
-      value: Boss
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3652820328476288192, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
       propertyPath: waves.Array.data[4].enemy.Array.data[0]
@@ -2387,14 +2386,6 @@ PrefabInstance:
       propertyPath: waves.Array.data[4].rate
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3652820328476288195, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.21
-      objectReference: {fileID: 0}
-    - target: {fileID: 3652820328476288195, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.07
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
 --- !u!1001 &9135432290142668381
@@ -2406,7 +2397,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9135432289568330445, guid: 9764ce0de781ddc498db8a92cc5073bc, type: 3}
       propertyPath: m_Size.y
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9135432289568330445, guid: 9764ce0de781ddc498db8a92cc5073bc, type: 3}
       propertyPath: m_EdgeRadius
@@ -2414,7 +2405,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9135432289568330450, guid: 9764ce0de781ddc498db8a92cc5073bc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.67
+      value: 1.14
       objectReference: {fileID: 0}
     - target: {fileID: 9135432289568330450, guid: 9764ce0de781ddc498db8a92cc5073bc, type: 3}
       propertyPath: m_LocalPosition.x

@@ -10,7 +10,7 @@ TagManager:
   - CameraPoint
   - LevelCamera
   - CharacterStats
-  - levelhandler
+  - Boss
   layers:
   - Default
   - TransparentFX

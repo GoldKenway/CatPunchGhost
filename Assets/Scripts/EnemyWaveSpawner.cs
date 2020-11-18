@@ -6,49 +6,45 @@ public class EnemyWaveSpawner : MonoBehaviour
 {
     public enum SpawnState { spawning, waiting, counting };
 
-    public GameObject Progress;
+
     // Start is called before the first frame update
     void Start()
     {
         waveCountdown = timeBetweenWaves;
-        Progress = GameObject.FindWithTag("ProgressBar");
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Progress.GetComponent<ProgressBar>().GetProgress() < Progress.GetComponent<ProgressBar>().slider.maxValue)
+        if (state == SpawnState.waiting)
         {
-
-            if (state == SpawnState.waiting)
+            //check if enemies are still alive
+            if (!enemyIsAlive())
             {
-                //check if enemies are still alive
-                if (!enemyIsAlive())
-                {
-                    //Begin a new round
-                    WaveCompleted();
-                    return;
-                }
-                else
-                {
-                    return;
-                }
-
-            }
-
-
-            if (waveCountdown <= 0)
-            {
-                if (state != SpawnState.spawning)
-                {
-                    // Start spawning wave
-                    StartCoroutine(SpawnWave(waves[nextWave]));
-                }
+                //Begin a new round
+                WaveCompleted();
+                return;
             }
             else
             {
-                waveCountdown -= Time.deltaTime;
+                return;
             }
+
+        }
+
+
+        if (waveCountdown <= 0)
+        {
+            if (state != SpawnState.spawning)
+            {
+                // Start spawning wave
+                StartCoroutine( SpawnWave (waves [nextWave] ) );
+            }
+        }
+        else
+        {
+            waveCountdown -= Time.deltaTime;
         }
     }
 
