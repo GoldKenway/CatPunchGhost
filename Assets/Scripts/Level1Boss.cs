@@ -6,7 +6,7 @@ public class Level1Boss : MonoBehaviour
 {
 
     public GameObject levelHandler;
-    int BossHealth;
+    public int BossHealth = 9;
 
     public GameObject Progress; // gets progress bar stuff ([something cool like progress bar being the boss healthbar)
     public Animator animator;
@@ -43,22 +43,6 @@ public class Level1Boss : MonoBehaviour
             }
 
         return BossDead;
-        }
-    
-
-        void Die()
-        {
-
-            Debug.Log("Enemy died!");
-            isDead = true;
-            animator.SetBool("isDead", true);
-
-            gameObject.tag = "Untagged";
-            GetComponent<Collider2D>().enabled = false;
-            this.enabled = false;
-
-            remove();
-
         }
 
         public void remove()

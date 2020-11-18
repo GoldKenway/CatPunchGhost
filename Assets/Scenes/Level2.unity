@@ -1039,7 +1039,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 549208652}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.58, y: -13.6, z: -2.5}
+  m_LocalPosition: {x: 17.12, y: -13.6, z: -2.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1205,6 +1205,8 @@ MonoBehaviour:
   Health: {fileID: 1231098039}
   Charge: {fileID: 115728407}
   Lives: {fileID: 1799672014}
+  chargeCount: 0
+  lifeCount: 3
   player: {fileID: 0}
 --- !u!1 &683719700
 GameObject:
@@ -1339,7 +1341,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94ac9e0dabd73cf46a0896306e3c21a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Boss: {fileID: 0}
   EnemiesKilled: 0
+  EnemyTotal: 9
   slider: {fileID: 765207376}
 --- !u!114 &765207376
 MonoBehaviour:
@@ -1712,7 +1716,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1737666312}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.51, y: -13.4, z: -19.015257}
+  m_LocalPosition: {x: 6.83, y: -13.4, z: -19.015257}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

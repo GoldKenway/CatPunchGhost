@@ -85,7 +85,7 @@ public class EnemyGhost : MonoBehaviour
     {
         Destroy(gameObject, 0);
 
-        if (Boss1.GetComponent<Level1Boss>().isBossDead() == true)
+        if(Boss1.GetComponent<Level1Boss>().isBossDead() == true)
         {
             levelHandler.GetComponent<SceneHandler>().FadeToNextLevel();
         }

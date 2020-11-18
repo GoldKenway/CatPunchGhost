@@ -16,7 +16,7 @@ public class SceneHandler : MonoBehaviour
 
     void Update() 
     {
-        FadeToLevel(1);
+        
     }
 
     void Start()
@@ -29,6 +29,7 @@ public class SceneHandler : MonoBehaviour
     {
 
         FadeToLevel(SceneManager.GetActiveScene().buildIndex + 1);
+        //FadeToLevel(1);
 
     }
 
@@ -39,7 +40,7 @@ public class SceneHandler : MonoBehaviour
         animator.SetTrigger("FadeOut");
         
         Debug.Log("LoadingScenenumber to load: " + levelIndex);
-        //SceneManager.LoadScene(scenename);
+        SceneManager.LoadScene(levelIndex);
     }
     public void OnFadeComplete()
     {
