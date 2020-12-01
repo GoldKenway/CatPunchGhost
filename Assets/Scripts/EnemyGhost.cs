@@ -99,6 +99,7 @@ public class EnemyGhost : MonoBehaviour
         animator.SetBool("Attack", false);
     }
 
+   
 
 
 

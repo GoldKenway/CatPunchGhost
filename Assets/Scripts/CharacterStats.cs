@@ -3,6 +3,7 @@ using UnityEngine.UI;
 
 public class CharacterStats : MonoBehaviour
 {
+	GameObject Camera;
 
 	public Text Health;
 
@@ -82,6 +83,14 @@ public class CharacterStats : MonoBehaviour
 		Health.text = playerHealth + "";
 		healthPoints = GameObject.FindGameObjectWithTag("CharacterStats");
 		Health = healthPoints.GetComponent<Text>();
+
+		Camera = GameObject.FindWithTag("MainCamera");
+
+		
+
+		DontDestroyOnLoad(this.gameObject);
+
+		DontDestroyOnLoad(Camera);
     }
 
 }

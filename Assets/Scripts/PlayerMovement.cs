@@ -6,6 +6,9 @@ public class PlayerMovement : MonoBehaviour
 {
     public GameObject player;
 
+    private GameObject Ghost;
+    private Rigidbody2D Gphysics; 
+
     public Animator animator;
     private Rigidbody2D _rigidbody;
     public Transform PunchAttackPoint;
@@ -21,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
     public int hitCount = 0;
     float lastAttackTime = 0;
     public float maxComboDelay = 0.9f;
+
 
 
 
@@ -50,8 +54,9 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.F))
         {
-            player.GetComponent<Mov>().hspeed = 0;
-            player.GetComponent<Mov>().vspeed = 0;
+            //player.GetComponent<Mov>().hspeed = 0;
+            //player.GetComponent<Mov>().vspeed = 0;
+            player.GetComponent<Rigidbody2D>().velocity = new Vector2(0,0);
             movement.canMove = false;
 
             lastAttackTime = Time.time;
@@ -109,12 +114,12 @@ public class PlayerMovement : MonoBehaviour
     {
         Debug.Log("Return 2");
 
-        if (hitCount >= 3)
+        if (hitCount % 3 == 0 && hitCount >=1)
         {
             //animator.Play("Punch 3", -1, 0f);
             animator.SetBool("Punch 3", true);
 
-            PunchAttack();
+            UpperCut();
         }
         else
         {
@@ -153,8 +158,50 @@ public class PlayerMovement : MonoBehaviour
         foreach(Collider2D enemy in hitEnemies)
         {
             Debug.Log("We hit " + enemy.name);
+            //FindObjectOfType<HitFeel>().TimeStop(0.17f);
+
+
+
+
             enemy.GetComponent<EnemyGhost>().TakeDamage(hit);
+
         }
+
+    }
+
+    void UpperCut()
+    {
+
+        Ghost = GameObject.FindWithTag("Enemy");
+        Gphysics = Ghost.GetComponent<Rigidbody2D>();
+
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(PunchAttackPoint.position, attackRange, enemyLayers);
+
+        
+
+        //damage enemies
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            Debug.Log("UpperCut!");
+
+            Vector3 arc = new Vector3(500,300, 0);
+
+            Gphysics.AddForce(arc,ForceMode2D.Impulse);
+            //Enemy.AddForce(xdirectoin)
+
+            StartCoroutine(TempGravity(.7f, Gphysics));
+
+        }
+
+    }
+
+    IEnumerator TempGravity(float seconds, Rigidbody2D enemy)
+    {
+        enemy.gravityScale = 1f;
+
+        yield return new WaitForSecondsRealtime(seconds);
+
+        enemy.gravityScale = 0f;
 
     }
 

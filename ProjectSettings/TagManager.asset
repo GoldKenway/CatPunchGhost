@@ -12,6 +12,7 @@ TagManager:
   - CharacterStats
   - Boss
   - levelhandler
+  - attackPoint
   layers:
   - Default
   - TransparentFX
@@ -48,13 +49,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
+    locked: 1
   - name: Background
     uniqueID: 3480730865
-    locked: 0
+    locked: 1
   - name: Buildings
     uniqueID: 3500925277
-    locked: 0
+    locked: 1
   - name: Enemies
     uniqueID: 2015537999
     locked: 0

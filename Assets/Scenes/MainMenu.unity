@@ -123,6 +123,49 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &30808426
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 30808428}
+  - component: {fileID: 30808427}
+  m_Layer: 0
+  m_Name: HitstopController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &30808427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30808426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fbf3566b3f7d2f419d3361672e6e967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &30808428
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30808426}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.37, y: -0.19068703, z: -0.80225873}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &77942576
 GameObject:
   m_ObjectHideFlags: 0
@@ -1492,7 +1535,7 @@ GameObject:
   - component: {fileID: 910621702}
   - component: {fileID: 910621701}
   - component: {fileID: 910621703}
-  m_Layer: 9
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2243,6 +2286,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 3652820328163784438, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3652820328163784439, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.281
@@ -2387,6 +2434,18 @@ PrefabInstance:
       propertyPath: waves.Array.data[4].rate
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3652820328476288195, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 3652820328476288195, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 3652820329430768091, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
+      propertyPath: m_TagString
+      value: attackPoint
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
 --- !u!1001 &9135432290142668381
@@ -2406,7 +2465,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9135432289568330450, guid: 9764ce0de781ddc498db8a92cc5073bc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.71
+      value: 3.6
       objectReference: {fileID: 0}
     - target: {fileID: 9135432289568330450, guid: 9764ce0de781ddc498db8a92cc5073bc, type: 3}
       propertyPath: m_LocalPosition.x

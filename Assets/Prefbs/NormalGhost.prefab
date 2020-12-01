@@ -187,6 +187,7 @@ MonoBehaviour:
   animator: {fileID: 7844725936615172553}
   maxHealth: 5
   Deaths: 0
+  levelHandler: {fileID: 0}
   enemyAI: {fileID: 3282908091412333768}
 --- !u!61 &7844725936615172552
 BoxCollider2D:

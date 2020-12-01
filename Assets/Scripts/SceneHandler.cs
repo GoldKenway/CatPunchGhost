@@ -43,9 +43,8 @@ public class SceneHandler : MonoBehaviour
     }
     public void OnFadeComplete()
     {
+
         SceneManager.LoadScene(LevelToLoad);
-
-
 
     }
 }
