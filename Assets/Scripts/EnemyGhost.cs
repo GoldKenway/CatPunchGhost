@@ -13,6 +13,11 @@ public class EnemyGhost : MonoBehaviour
     public int Deaths;
     bool touchingPlayer;
     public GameObject levelHandler;
+    float stunTime = 0.3f;
+
+    //getting the script
+    GameObject Enemy;
+
 
     GameObject Boss1;
 
@@ -28,11 +33,16 @@ public class EnemyGhost : MonoBehaviour
         currentHealth = maxHealth;
         Boss1 = GameObject.FindWithTag("Boss");
         levelHandler = GameObject.FindWithTag("levelhandler");
+
+        Enemy = GameObject.FindWithTag("Enemy");
+
     }
 
     // Update is called once per frame
     void Update()
     {
+
+
         Progress = GameObject.FindWithTag("ProgressBar");
         if (enemyAI.isTouching())
         {
@@ -99,8 +109,25 @@ public class EnemyGhost : MonoBehaviour
         animator.SetBool("Attack", false);
     }
 
-   
+    public void Stun()
+    {
+       
+        StartCoroutine(StunTimer());
 
+    }
+
+
+    IEnumerator StunTimer() {
+
+        Enemy.GetComponent<EnemyAI>().enabled = false;
+        yield return null;
+
+
+        yield return new WaitForSecondsRealtime(stunTime);
+        Enemy.GetComponent<EnemyAI>().enabled = true;
+
+
+    }
 
 
 }

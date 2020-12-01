@@ -25,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
     float lastAttackTime = 0;
     public float maxComboDelay = 0.9f;
 
+    bool canAttack = true;
 
 
 
@@ -52,7 +53,7 @@ public class PlayerMovement : MonoBehaviour
 
         transform.position += new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0) * Time.deltaTime * movementSpeed;
 
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.F) && canAttack == true)
         {
             //player.GetComponent<Mov>().hspeed = 0;
             //player.GetComponent<Mov>().vspeed = 0;
@@ -119,7 +120,9 @@ public class PlayerMovement : MonoBehaviour
             //animator.Play("Punch 3", -1, 0f);
             animator.SetBool("Punch 3", true);
 
-            UpperCut();
+            PunchAttack();
+            EndLag(1f);
+            //UpperCut();
         }
         else
         {
@@ -160,15 +163,13 @@ public class PlayerMovement : MonoBehaviour
             Debug.Log("We hit " + enemy.name);
             //FindObjectOfType<HitFeel>().TimeStop(0.17f);
 
-
-
-
             enemy.GetComponent<EnemyGhost>().TakeDamage(hit);
-
+            enemy.GetComponent<EnemyGhost>().Stun();
         }
 
     }
 
+    /*
     void UpperCut()
     {
 
@@ -194,14 +195,23 @@ public class PlayerMovement : MonoBehaviour
         }
 
     }
+    */
 
-    IEnumerator TempGravity(float seconds, Rigidbody2D enemy)
+    IEnumerator LagTime(float Duration)
     {
-        enemy.gravityScale = 1f;
 
-        yield return new WaitForSecondsRealtime(seconds);
+        canAttack = false;
 
-        enemy.gravityScale = 0f;
+        yield return new WaitForSecondsRealtime(Duration);
+
+        canAttack = true;
+
+    }
+
+    public void EndLag(float Duration)
+    {
+
+        StartCoroutine(LagTime(Duration));
 
     }
 
@@ -213,4 +223,6 @@ public class PlayerMovement : MonoBehaviour
             return;
         Gizmos.DrawWireSphere(PunchAttackPoint.position, attackRange);
     }
+
+
 }

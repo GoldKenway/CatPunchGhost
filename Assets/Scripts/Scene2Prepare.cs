@@ -14,7 +14,7 @@ public class Scene2Prepare : MonoBehaviour
         camera = GameObject.FindWithTag("MainCamera");
 
         Vector3 newPos = new Vector3(-2.69f, -15.87f, -1f);
-        Vector3 newCamPos;
+        Vector3 newCamPos = new Vector3(13.56f,-13.73f,-2.5f);
 
         player.transform.position = newPos;
 
