@@ -8,13 +8,13 @@ public class ComboCounter : MonoBehaviour
     public static float currentTime = 3f;
     float stopTime = 0f;
 
-    private TextMeshPro textMeshPro;
+    private TextMeshProUGUI textMeshPro;
 
     public static int hitCount = 0;
 
     private void Awake()
     {
-        textMeshPro = GetComponent<TextMeshPro>();
+        textMeshPro = GetComponent<TextMeshProUGUI>();
 
         SetHitCounter(hitCount);
     }
