@@ -1,0 +1,898 @@
+fileFormatVersion: 2
+guid: bffc2353b0e8d204ba952e4dd5a48931
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8694783796287149620
+    second: hellspritesheet2_0
+  - first:
+      213: 6638795439548265695
+    second: hellspritesheet2_1
+  - first:
+      213: 4529429737872402427
+    second: hellspritesheet2_2
+  - first:
+      213: 4032333380890437547
+    second: hellspritesheet2_3
+  - first:
+      213: 1922073233655275429
+    second: hellspritesheet2_4
+  - first:
+      213: 1263133809714483013
+    second: hellspritesheet2_5
+  - first:
+      213: -5811778536420369549
+    second: hellspritesheet2_6
+  - first:
+      213: 1720157057629581834
+    second: hellspritesheet2_7
+  - first:
+      213: -5310017630794890285
+    second: hellspritesheet2_8
+  - first:
+      213: -8546898537991312809
+    second: hellspritesheet2_9
+  - first:
+      213: -4811377965902441298
+    second: hellspritesheet2_10
+  - first:
+      213: -1531042818578741247
+    second: hellspritesheet2_11
+  - first:
+      213: -2754054374764217649
+    second: hellspritesheet2_12
+  - first:
+      213: 2338416103858050739
+    second: hellspritesheet2_13
+  - first:
+      213: 6069858132116271526
+    second: hellspritesheet2_14
+  - first:
+      213: 3914592905688427640
+    second: hellspritesheet2_15
+  - first:
+      213: 7381734347797082065
+    second: hellspritesheet2_16
+  - first:
+      213: -181864270183051413
+    second: hellspritesheet2_17
+  - first:
+      213: 9177089035055700235
+    second: hellspritesheet2_18
+  - first:
+      213: -765647140536279850
+    second: hellspritesheet2_19
+  - first:
+      213: -1849289762590212269
+    second: hellspritesheet2_20
+  - first:
+      213: 1888545318843730037
+    second: hellspritesheet2_21
+  - first:
+      213: -2309496781030970640
+    second: hellspritesheet2_22
+  - first:
+      213: -6218824747934190309
+    second: hellspritesheet2_23
+  - first:
+      213: 3946134713679446393
+    second: hellspritesheet2_24
+  - first:
+      213: -8626077069168141680
+    second: hellspritesheet2_25
+  - first:
+      213: -1092998740763209317
+    second: hellspritesheet2_26
+  - first:
+      213: 679791328208961068
+    second: hellspritesheet2_27
+  - first:
+      213: 3542185108376405203
+    second: hellspritesheet2_28
+  - first:
+      213: -8768924278660587676
+    second: hellspritesheet2_29
+  - first:
+      213: 624771635610924911
+    second: hellspritesheet2_30
+  - first:
+      213: -404652889270945271
+    second: hellspritesheet2_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hellspritesheet2_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 621
+        width: 169
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4369488bbc31aa870800000000000000
+      internalID: 8694783796287149620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_1
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 760
+        width: 81
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4f1c6474db12c50800000000000000
+      internalID: 6638795439548265695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_2
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 638
+        width: 374
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7a9f04954cbde30800000000000000
+      internalID: 4529429737872402427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_3
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 584
+        width: 498
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7acef78d9b5f730800000000000000
+      internalID: 4032333380890437547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_4
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 618
+        width: 264
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af1f442c639caa10800000000000000
+      internalID: 1922073233655275429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_5
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 587
+        width: 278
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f41dfe18d878110800000000000000
+      internalID: 1263133809714483013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_6
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 626
+        width: 228
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b9c67963a685fa0800000000000000
+      internalID: -5811778536420369549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_7
+      rect:
+        serializedVersion: 2
+        x: 2306
+        y: 626
+        width: 354
+        height: 268
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0274e9eab93fd710800000000000000
+      internalID: 1720157057629581834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_8
+      rect:
+        serializedVersion: 2
+        x: 2692
+        y: 774
+        width: 70
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3c86539170f46b0800000000000000
+      internalID: -5310017630794890285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_9
+      rect:
+        serializedVersion: 2
+        x: 2826
+        y: 631
+        width: 239
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ae8b72011536980800000000000000
+      internalID: -8546898537991312809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_10
+      rect:
+        serializedVersion: 2
+        x: 3085
+        y: 743
+        width: 92
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea45e365b3d8a3db0800000000000000
+      internalID: -4811377965902441298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_11
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 594
+        width: 498
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10883b61ba4a0cae0800000000000000
+      internalID: -1531042818578741247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_12
+      rect:
+        serializedVersion: 2
+        x: 3810
+        y: 626
+        width: 202
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca71144322a7c9d0800000000000000
+      internalID: -2754054374764217649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_13
+      rect:
+        serializedVersion: 2
+        x: 4139
+        y: 643
+        width: 230
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b613879e09b37020800000000000000
+      internalID: 2338416103858050739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_14
+      rect:
+        serializedVersion: 2
+        x: 4452
+        y: 645
+        width: 132
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a17ec9cfc77c3450800000000000000
+      internalID: 6069858132116271526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_15
+      rect:
+        serializedVersion: 2
+        x: 4579
+        y: 662
+        width: 222
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ca2dfd18d635630800000000000000
+      internalID: 3914592905688427640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 273
+        width: 1013
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfaeba7740317660800000000000000
+      internalID: 7381734347797082065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_17
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 257
+        width: 2414
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f476ae863e97df0800000000000000
+      internalID: -181864270183051413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_18
+      rect:
+        serializedVersion: 2
+        x: 3483
+        y: 284
+        width: 722
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0990a6ead19b5f70800000000000000
+      internalID: 9177089035055700235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_19
+      rect:
+        serializedVersion: 2
+        x: 3702
+        y: 204
+        width: 1231
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc9a057bffdf55f0800000000000000
+      internalID: -765647140536279850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_20
+      rect:
+        serializedVersion: 2
+        x: 4210
+        y: 318
+        width: 315
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f3b0642c00656e0800000000000000
+      internalID: -1849289762590212269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 69
+        width: 165
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57848e726f5753a10800000000000000
+      internalID: 1888545318843730037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_22
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 65
+        width: 148
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0faadb4f9e403ffd0800000000000000
+      internalID: -2309496781030970640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_23
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 65
+        width: 90
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1579fa27db42b9a0800000000000000
+      internalID: -6218824747934190309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_24
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 57
+        width: 149
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97183b45d9c73c630800000000000000
+      internalID: 3946134713679446393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_25
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 65
+        width: 88
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a1717cb940a4880800000000000000
+      internalID: -8626077069168141680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_26
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 57
+        width: 88
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b911cdcaf63e4d0f0800000000000000
+      internalID: -1092998740763209317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_27
+      rect:
+        serializedVersion: 2
+        x: 2882
+        y: 55
+        width: 149
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e394f7c9a1f6900800000000000000
+      internalID: 679791328208961068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_28
+      rect:
+        serializedVersion: 2
+        x: 3251
+        y: 23
+        width: 234
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d44479b69e582130800000000000000
+      internalID: 3542185108376405203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_29
+      rect:
+        serializedVersion: 2
+        x: 3761
+        y: 57
+        width: 151
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f132c04d58e4680800000000000000
+      internalID: -8768924278660587676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_30
+      rect:
+        serializedVersion: 2
+        x: 4281
+        y: 52
+        width: 150
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67345e0e72aba800800000000000000
+      internalID: 624771635610924911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hellspritesheet2_31
+      rect:
+        serializedVersion: 2
+        x: 4855
+        y: 52
+        width: 145
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a7ba55752626af0800000000000000
+      internalID: -404652889270945271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

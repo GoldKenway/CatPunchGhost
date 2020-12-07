@@ -1,0 +1,898 @@
+fileFormatVersion: 2
+guid: f632f39f2835cba4683d581283fb5ce9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5101711139064384175
+    second: HadesCastleSpriteSheet_0
+  - first:
+      213: -4860111916215236978
+    second: HadesCastleSpriteSheet_1
+  - first:
+      213: 302437430732834355
+    second: HadesCastleSpriteSheet_2
+  - first:
+      213: 168040697043645612
+    second: HadesCastleSpriteSheet_3
+  - first:
+      213: 8702736470072023142
+    second: HadesCastleSpriteSheet_4
+  - first:
+      213: -6526762356581667843
+    second: HadesCastleSpriteSheet_5
+  - first:
+      213: -5612404809185871686
+    second: HadesCastleSpriteSheet_6
+  - first:
+      213: 6399225975362729411
+    second: HadesCastleSpriteSheet_7
+  - first:
+      213: -4460402188194607601
+    second: HadesCastleSpriteSheet_8
+  - first:
+      213: -4908385593502561068
+    second: HadesCastleSpriteSheet_9
+  - first:
+      213: -6807953021308971803
+    second: HadesCastleSpriteSheet_10
+  - first:
+      213: 7696495715903353761
+    second: HadesCastleSpriteSheet_11
+  - first:
+      213: -6395405775236405291
+    second: HadesCastleSpriteSheet_12
+  - first:
+      213: 1948785905225274380
+    second: HadesCastleSpriteSheet_13
+  - first:
+      213: -2876028500735010167
+    second: HadesCastleSpriteSheet_14
+  - first:
+      213: 4357015866375158390
+    second: HadesCastleSpriteSheet_15
+  - first:
+      213: -6999863060578108752
+    second: HadesCastleSpriteSheet_16
+  - first:
+      213: 865142687696853317
+    second: HadesCastleSpriteSheet_17
+  - first:
+      213: -3215506616293656214
+    second: HadesCastleSpriteSheet_18
+  - first:
+      213: 2214615539572969279
+    second: HadesCastleSpriteSheet_19
+  - first:
+      213: -7135210008528024599
+    second: HadesCastleSpriteSheet_20
+  - first:
+      213: -8741009971886039337
+    second: HadesCastleSpriteSheet_21
+  - first:
+      213: -3340157722544441628
+    second: HadesCastleSpriteSheet_22
+  - first:
+      213: 8350657989547688378
+    second: HadesCastleSpriteSheet_23
+  - first:
+      213: -6715618397362869181
+    second: HadesCastleSpriteSheet_24
+  - first:
+      213: 8227535707605730992
+    second: HadesCastleSpriteSheet_25
+  - first:
+      213: 4385605519860739841
+    second: HadesCastleSpriteSheet_26
+  - first:
+      213: -1162185465825968344
+    second: HadesCastleSpriteSheet_27
+  - first:
+      213: -2268802259345775375
+    second: HadesCastleSpriteSheet_28
+  - first:
+      213: -9031834831683865525
+    second: HadesCastleSpriteSheet_29
+  - first:
+      213: -7103045367480842309
+    second: HadesCastleSpriteSheet_30
+  - first:
+      213: -6014341010050107012
+    second: HadesCastleSpriteSheet_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 602
+        width: 5000
+        height: 412
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155f961cfb41339b0800000000000000
+      internalID: -5101711139064384175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 586
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86095156f96d8cb0800000000000000
+      internalID: -4860111916215236978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 4267
+        y: 588
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336cc99ad39723400800000000000000
+      internalID: 302437430732834355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 294
+        width: 110
+        height: 289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca47817af10055200800000000000000
+      internalID: 168040697043645612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 275
+        width: 144
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668da70e5b456c870800000000000000
+      internalID: 8702736470072023142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 294
+        width: 110
+        height: 289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbee8a87384c65a0800000000000000
+      internalID: -6526762356581667843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 2641
+        y: 571
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab838c4df8bbc12b0800000000000000
+      internalID: -5612404809185871686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 576
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5b2fabe1e9ec850800000000000000
+      internalID: 6399225975362729411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 3173
+        y: 573
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e094197d77912c0800000000000000
+      internalID: -4460402188194607601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 3436
+        y: 294
+        width: 110
+        height: 289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc82a6fe49e1ebb0800000000000000
+      internalID: -4908385593502561068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 3711
+        y: 576
+        width: 49
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4d4551cca4581a0800000000000000
+      internalID: -6807953021308971803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 5000
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a33cb963127fca60800000000000000
+      internalID: 7696495715903353761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 275
+        width: 123
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d76d8ce454fe37a0800000000000000
+      internalID: -6395405775236405291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 275
+        width: 134
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c049d38a47a7b0b10800000000000000
+      internalID: 1948785905225274380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 363
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a5ac1015b4618d0800000000000000
+      internalID: -2876028500735010167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 275
+        width: 135
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a380498da377c30800000000000000
+      internalID: 4357015866375158390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 363
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bafcdd12ad7bde90800000000000000
+      internalID: -6999863060578108752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 363
+        width: 32
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5499234d0ba910c00800000000000000
+      internalID: 865142687696853317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 270
+        width: 136
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69f5ead4c93063d0800000000000000
+      internalID: -3215506616293656214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 2622
+        y: 358
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f8e468915ebbe10800000000000000
+      internalID: 2214615539572969279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 2638
+        y: 270
+        width: 137
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb00eb1d44aafc90800000000000000
+      internalID: -7135210008528024599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 3154
+        y: 270
+        width: 174
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ded59f0eb1b1b680800000000000000
+      internalID: -8741009971886039337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 3677
+        y: 270
+        width: 135
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6f5fd8f3065a1d0800000000000000
+      internalID: -3340157722544441628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 4192
+        y: 270
+        width: 152
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab184c3a23f73e370800000000000000
+      internalID: 8350657989547688378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 4701
+        y: 270
+        width: 177
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cab1206a45dc2a0800000000000000
+      internalID: -6715618397362869181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 341
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b68eac72241e2270800000000000000
+      internalID: 8227535707605730992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 331
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10faa400cfcccdc30800000000000000
+      internalID: 4385605519860739841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 331
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f3252f9761fdfe0800000000000000
+      internalID: -1162185465825968344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 332
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f46712ad589380e0800000000000000
+      internalID: -2268802259345775375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 331
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44bb73c21a78a280800000000000000
+      internalID: -9031834831683865525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 334
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb702df2fd9ec6d90800000000000000
+      internalID: -7103045367480842309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HadesCastleSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 3145
+        y: 325
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7936e977b4c88ca0800000000000000
+      internalID: -6014341010050107012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

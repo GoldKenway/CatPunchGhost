@@ -10,7 +10,7 @@ public class EnemyAI : MonoBehaviour
     public Transform player;
     public GameObject playerObj;
     public float moveSpeed = .6f;
-    private Vector2 movement;
+    public Vector2 movement;
     public Animator animator;
 
 

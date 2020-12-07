@@ -169,7 +169,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 1
+  m_CollisionDetection: 0
   m_Constraints: 4
 --- !u!114 &7844725936615172559
 MonoBehaviour:
@@ -273,6 +273,7 @@ MonoBehaviour:
   player: {fileID: 3652820328163784439, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
   playerObj: {fileID: 3652820328163784437, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
   moveSpeed: 0.75
+  movement: {x: 0, y: 0}
   animator: {fileID: 7844725936615172553}
   nearEnemyTracker: {fileID: 7844725936239702827}
   AttackPoint: {fileID: 7844725936595881813}

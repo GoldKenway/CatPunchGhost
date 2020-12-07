@@ -72,10 +72,10 @@ GameObject:
   - component: {fileID: 3465652784844267702}
   - component: {fileID: 3465652784844267691}
   - component: {fileID: 3465652784844267700}
-  - component: {fileID: 3465652784844267690}
   - component: {fileID: 3465652784844267689}
   - component: {fileID: 7259217232049797434}
   - component: {fileID: 5246610966099983005}
+  - component: {fileID: 2327293830870172267}
   m_Layer: 8
   m_Name: Boss1
   m_TagString: Boss
@@ -91,8 +91,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3465652784844267703}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.9, y: -1.05, z: -1}
-  m_LocalScale: {x: 1.5438181, y: 1.5299878, z: 1}
+  m_LocalPosition: {x: 12.791, y: -0.935, z: -1}
+  m_LocalScale: {x: 1.6289476, y: 1.5956995, z: 1}
   m_Children:
   - {fileID: 5745250539605686625}
   - {fileID: 1013052934476870470}
@@ -190,24 +190,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &3465652784844267690
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3465652784844267703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77b021ffbddfa5547b5a0c2bbf71319a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelHandler: {fileID: 7834587715068289068, guid: 48745b7ac815cb7489e22753bef05bd7, type: 3}
-  BossHealth: 9
-  Progress: {fileID: 0}
-  animator: {fileID: 3465652784844267700}
-  Deaths: 0
-  enemyAI: {fileID: 7259217232049797434}
 --- !u!61 &3465652784844267689
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -221,7 +203,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.012493372, y: 0.25932813}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -232,7 +214,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.55, y: 3.51}
+  m_Size: {x: 2.4250665, y: 2.94033}
   m_EdgeRadius: 0
 --- !u!114 &7259217232049797434
 MonoBehaviour:
@@ -249,6 +231,7 @@ MonoBehaviour:
   player: {fileID: 3652820328163784439, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
   playerObj: {fileID: 3652820328163784437, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
   moveSpeed: 0.6
+  movement: {x: 0, y: 0}
   animator: {fileID: 3465652784844267700}
   nearEnemyTracker: {fileID: 5745250539605686625}
   AttackPoint: {fileID: 1013052934476870470}
@@ -272,8 +255,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Progress: {fileID: 0}
-  animator: {fileID: 3465652784844267700}
-  maxHealth: 0
+  animator: {fileID: 0}
+  maxHealth: 12
   Deaths: 0
   levelHandler: {fileID: 0}
+  enemyAI: {fileID: 0}
+--- !u!114 &2327293830870172267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3465652784844267703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b753eb6d7d9d4ad448e2aaed11d8eb3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Boss: {fileID: 3465652784844267703}
+  Player: {fileID: 3652820328163784437, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
+  animator: {fileID: 3465652784844267700}
   enemyAI: {fileID: 7259217232049797434}

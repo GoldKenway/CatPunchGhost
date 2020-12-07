@@ -139,7 +139,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 1
+  m_CollisionDetection: 0
   m_Constraints: 4
 --- !u!114 &4785647648186244730
 MonoBehaviour:
@@ -157,6 +157,7 @@ MonoBehaviour:
   animator: {fileID: 4785647648186244732}
   maxHealth: 3
   Deaths: 0
+  levelHandler: {fileID: 0}
   enemyAI: {fileID: 232817192835347325}
 --- !u!61 &4785647648186244733
 BoxCollider2D:
@@ -242,6 +243,7 @@ MonoBehaviour:
   player: {fileID: 3652820328163784439, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
   playerObj: {fileID: 3652820328163784437, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
   moveSpeed: 1
+  movement: {x: 0, y: 0}
   animator: {fileID: 4785647648186244732}
   nearEnemyTracker: {fileID: 4785647647806637214}
   AttackPoint: {fileID: 4785647648239122656}
