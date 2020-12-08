@@ -19,7 +19,7 @@ public class Camera : MonoBehaviour
 
 		if (player)
 		{
-			target = player.transform;
+			this.target = player.transform;
 
 		}
 

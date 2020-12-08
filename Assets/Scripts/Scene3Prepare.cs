@@ -17,7 +17,7 @@ public class NewBehaviourScript : MonoBehaviour
         Vector3 newCamPos = new Vector3(12.18f, -27.01f, -2.5f);
 
         player.transform.position = newPos;
-
+        camera.transform.position = newCamPos;
     }
 
     // Update is called once per frame

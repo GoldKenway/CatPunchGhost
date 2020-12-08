@@ -17,6 +17,7 @@ public class Scene2Prepare : MonoBehaviour
         Vector3 newCamPos = new Vector3(13.56f,-13.73f,-2.5f);
 
         player.transform.position = newPos;
+        camera.transform.position = newCamPos;
 
     }
 

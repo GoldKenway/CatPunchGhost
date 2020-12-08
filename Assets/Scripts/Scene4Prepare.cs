@@ -17,7 +17,7 @@ public class Scene4Prepare : MonoBehaviour
         Vector3 newCamPos = new Vector3(6.94f, -41.03f, -2.5f);
 
         player.transform.position = newPos;
-
+        camera.transform.position = newCamPos;
     }
 
     // Update is called once per frame
