@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: -2762435973519711004}
   - component: {fileID: 1782305727997032751}
   - component: {fileID: 2871857071849350991}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Shock1
   m_TagString: Enemy
   m_Icon: {fileID: 0}

@@ -45,9 +45,9 @@ GameObject:
   - component: {fileID: 3449824749940373827}
   - component: {fileID: 7217109037818059837}
   - component: {fileID: 6624395530907162588}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Shield1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

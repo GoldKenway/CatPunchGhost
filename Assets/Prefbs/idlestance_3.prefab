@@ -45,9 +45,9 @@ GameObject:
   - component: {fileID: -6836135457547587529}
   - component: {fileID: 2467200591495045632}
   - component: {fileID: 4592760617534539920}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: idlestance_3
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

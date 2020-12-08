@@ -22,12 +22,18 @@ public class Boss1AI : MonoBehaviour
 
     public GameObject levelHandler;
 
+    public int BossHealth;
+
+    public EnemyGhost eGhost;
+
     //bool BossAttack = false;
 
     // Start is called before the first frame update
     void Start()
     {
+        eGhost = GameObject.FindWithTag("Boss").GetComponent<EnemyGhost>();
 
+        BossHealth = eGhost.maxHealth;
 
         levelHandler = GameObject.FindWithTag("levelhandler");
 
@@ -46,6 +52,13 @@ public class Boss1AI : MonoBehaviour
             lastAttackTime = Time.time;
             BossAttack();
             //animator.SetBool("Attack", true);
+        }
+
+        Debug.Log(BossHealth);
+        if (BossHealth <= 0)
+        {
+            Die();
+
         }
 
 

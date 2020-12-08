@@ -276,3 +276,5 @@ MonoBehaviour:
   Player: {fileID: 3652820328163784437, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
   animator: {fileID: 3465652784844267700}
   enemyAI: {fileID: 7259217232049797434}
+  levelHandler: {fileID: 0}
+  eGhost: {fileID: 0}

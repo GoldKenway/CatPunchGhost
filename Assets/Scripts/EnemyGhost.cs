@@ -62,6 +62,9 @@ public class EnemyGhost : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+
+        Debug.Log(currentHealth);
+
         currentHealth -= damage;
         if (currentHealth <= 0)
         {
@@ -75,20 +78,25 @@ public class EnemyGhost : MonoBehaviour
 
     void Die()
     {
+        if (gameObject.tag == "Boss")
+        {
+            remove();
+            levelHandler.GetComponent<SceneHandler>().FadeToNextLevel();
+        }
+        else {
+            Debug.Log("Enemy died!");
+            isDead = true;
+            animator.SetBool("isDead", true);
 
-        Debug.Log("Enemy died!");
-        isDead = true;
-        animator.SetBool("isDead", true);
+            gameObject.tag = "Untagged";
+            GetComponent<Collider2D>().enabled = false;
+            this.enabled = false;
 
-        gameObject.tag = "Untagged";
-        GetComponent<Collider2D>().enabled = false;
-        this.enabled = false;
+            Progress.GetComponent<ProgressBar>().EnemiesKilled++;
+            Progress.GetComponent<ProgressBar>().SetProgress(Progress.GetComponent<ProgressBar>().EnemiesKilled);
 
-        Progress.GetComponent<ProgressBar>().EnemiesKilled++;
-        Progress.GetComponent<ProgressBar>().SetProgress(Progress.GetComponent<ProgressBar>().EnemiesKilled);
-
-        remove();
-
+            remove();
+        }
     }
 
     void remove()
