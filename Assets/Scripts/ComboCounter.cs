@@ -12,6 +12,8 @@ public class ComboCounter : MonoBehaviour
 
     public static int hitCount = 0;
 
+    public static int HighestCount;
+
     private void Awake()
     {
         textMeshPro = GetComponent<TextMeshProUGUI>();
@@ -34,6 +36,12 @@ public class ComboCounter : MonoBehaviour
         {
             hitCount = 0;
             currentTime = 3f;
+        }
+
+        if (hitCount > HighestCount)
+        {
+            HighestCount = hitCount;
+
         }
 
     }

@@ -121,7 +121,7 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("Punch 3", true);
 
             PunchAttack();
-            EndLag(1f);
+            EndLag(3f);
             //UpperCut();
         }
         else

@@ -19,6 +19,8 @@ public class CharacterStats : MonoBehaviour
 
 	public PlayerMovement player;
 
+	public static int FinalHealth = 500;
+
 	GameObject healthPoints;
 
 	public void GameOver()
@@ -33,12 +35,13 @@ public class CharacterStats : MonoBehaviour
     {
 		Debug.Log("Player hit.");
 		playerHealth -= hitPoints;
+		FinalHealth -= hitPoints;
 		Health.text = playerHealth + "";
 		player.animator.SetBool("isHit", true);
 		if (playerHealth <= 0)
         {
 			player.animator.SetBool("isDead", true);
-			//characterDeath(lifeCount);
+			//GameOver();
         }
     }
 

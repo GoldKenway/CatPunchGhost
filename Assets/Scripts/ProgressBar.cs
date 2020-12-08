@@ -8,17 +8,19 @@ public class ProgressBar : MonoBehaviour
 	public int EnemiesKilled;
 	public int EnemyTotal = 9;
 
+	public int CalltoGlobal;
+
 	public Slider slider;
 
 	public void SetMaxEnemy(int totalEnemies)
 	{
 		slider.maxValue = totalEnemies;
-
 	}
 
 	void Start()
 	{
 		SetMaxEnemy(EnemyTotal);
+		CalltoGlobal = EndCard.OverallDead;
 	}
 
 	public void SetProgress(int EnemiesKilled)
@@ -29,6 +31,8 @@ public class ProgressBar : MonoBehaviour
 			Instantiate(Boss, Boss.position, Boss.rotation);
 
 		}
+
+		CalltoGlobal = CalltoGlobal + EnemiesKilled;
 
 	}
 
