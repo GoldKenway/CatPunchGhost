@@ -9,7 +9,7 @@ public class Boss1AI : MonoBehaviour
     public GameObject Boss;
 
     public GameObject Player;
-   
+
     public Animator animator;
 
     public EnemyAI enemyAI;
@@ -18,7 +18,9 @@ public class Boss1AI : MonoBehaviour
 
     float lastAttackTime = 3;
 
-    private bool isDead= false;
+    private bool isDead = false;
+
+    public GameObject levelHandler;
 
     //bool BossAttack = false;
 
@@ -27,7 +29,7 @@ public class Boss1AI : MonoBehaviour
     {
 
 
-
+        levelHandler = GameObject.FindWithTag("levelhandler");
 
         rg2d = this.GetComponent<Rigidbody2D>();
         Boss = GameObject.FindWithTag("Boss");
@@ -39,12 +41,12 @@ public class Boss1AI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-            if (Time.time - lastAttackTime > 2)
-            {
-                lastAttackTime = Time.time;
-                BossAttack();
-                //animator.SetBool("Attack", true);
-            }
+        if (Time.time - lastAttackTime > 2)
+        {
+            lastAttackTime = Time.time;
+            BossAttack();
+            //animator.SetBool("Attack", true);
+        }
 
 
     }
@@ -62,7 +64,7 @@ public class Boss1AI : MonoBehaviour
 
                 //stop the boss
 
-                
+
 
                 // do the clap attack
 
@@ -91,7 +93,7 @@ public class Boss1AI : MonoBehaviour
         else
         {
             animator.SetBool("FacingRight", true);
-         
+
             if (getPlayerPosition(Player.transform, Boss.transform) >= 5f)
             {
 
@@ -132,15 +134,15 @@ public class Boss1AI : MonoBehaviour
     IEnumerator ClapDuration(float Duration)
     {
         enemyAI.movement = new Vector2(0f, 0f);
-            animator.SetTrigger("PlayerisClose");
-            enemyAI.Attack();
+        animator.SetTrigger("PlayerisClose");
+        enemyAI.Attack();
 
-            yield return new WaitForSeconds(Duration);
+        yield return new WaitForSeconds(Duration);
 
-            animator.ResetTrigger("PlayerisClose");
-        
+        animator.ResetTrigger("PlayerisClose");
 
-	}
+
+    }
 
     IEnumerator ShakeDuration(float Duration)
     {
@@ -157,9 +159,9 @@ public class Boss1AI : MonoBehaviour
 
 
 
-    float getPlayerPosition(Transform player, Transform Boss) 
+    float getPlayerPosition(Transform player, Transform Boss)
     {
-        float difference =  Mathf.Abs(player.position.x - Boss.position.x);
+        float difference = Mathf.Abs(player.position.x - Boss.position.x);
 
         return difference;
     }
@@ -169,16 +171,13 @@ public class Boss1AI : MonoBehaviour
     void Die()
     {
 
-       
+
         isDead = true;
         animator.SetBool("isDead", true);
 
         gameObject.tag = "Untagged";
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
-
-        Progress.GetComponent<ProgressBar>().EnemiesKilled++;
-        Progress.GetComponent<ProgressBar>().SetProgress(Progress.GetComponent<ProgressBar>().EnemiesKilled);
 
         remove();
 
@@ -188,16 +187,15 @@ public class Boss1AI : MonoBehaviour
     {
         Debug.Log("remove called");
         Destroy(gameObject, 0);
-        Boss1.GetComponent<Level1Boss>().BossDead = true;
 
-        if (Boss1.GetComponent<Level1Boss>().BossDead == true)
+        //bump into next level
         {
             Debug.Log("remove Boss called");
             levelHandler.GetComponent<SceneHandler>().FadeToNextLevel();
         }
+
+
     }
 
-
-
-
 }
+
