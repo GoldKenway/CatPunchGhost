@@ -41,8 +41,8 @@ public class CharacterStats : MonoBehaviour
 		if (playerHealth <= 0)
         {
 			player.animator.SetBool("isDead", true);
-			//GameOver();
-        }
+			Application.Quit();
+		}
     }
 
 	public void characterDeath(int lives)
@@ -86,6 +86,8 @@ public class CharacterStats : MonoBehaviour
 		Health.text = playerHealth + "";
 		healthPoints = GameObject.FindGameObjectWithTag("CharacterStats");
 		Health = healthPoints.GetComponent<Text>();
+
+		
 
 		Camera = GameObject.FindWithTag("MainCamera");
 
