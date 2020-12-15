@@ -149,8 +149,10 @@ public class Boss1AI : MonoBehaviour
         enemyAI.movement = new Vector2(0f, 0f);
         animator.SetTrigger("PlayerisClose");
         enemyAI.Attack();
-
+        animator.Play("Clap1");
         yield return new WaitForSeconds(Duration);
+
+        Debug.Log("trigger activated");
 
         animator.ResetTrigger("PlayerisClose");
 

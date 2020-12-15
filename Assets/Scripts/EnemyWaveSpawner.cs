@@ -132,7 +132,14 @@ public class EnemyWaveSpawner : MonoBehaviour
         //Spawn enemy
         Debug.Log("Spawning Enemy: " + _enemy.name);
 
-        Instantiate(_enemy, transform.position, transform.rotation);
+        
+
+        if (_enemy.name != "Boss1")
+        {
+             Instantiate(_enemy, transform.position, transform.rotation);
+        }
+
+       
 
     }
 

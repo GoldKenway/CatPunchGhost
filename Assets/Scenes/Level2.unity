@@ -358,7 +358,7 @@ GameObject:
   - component: {fileID: 98630257}
   m_Layer: 9
   m_Name: EnemySpawner
-  m_TagString: Untagged
+  m_TagString: spawner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -411,7 +411,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 98630256}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.11, y: -17.04, z: 0}
+  m_LocalPosition: {x: 22.68, y: -16.49, z: 0}
   m_LocalScale: {x: 1.0364599, y: 1.21424, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1097,6 +1097,7 @@ MonoBehaviour:
   EnemyTotal: 9
   CalltoGlobal: 0
   slider: {fileID: 765207376}
+  EnemySpawner: {fileID: 0}
 --- !u!114 &765207376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1857,11 +1858,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9135432289568330450, guid: 9764ce0de781ddc498db8a92cc5073bc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.14
+      value: 2.56
       objectReference: {fileID: 0}
     - target: {fileID: 9135432289568330450, guid: 9764ce0de781ddc498db8a92cc5073bc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.75
+      value: 18.17
       objectReference: {fileID: 0}
     - target: {fileID: 9135432289688146201, guid: 9764ce0de781ddc498db8a92cc5073bc, type: 3}
       propertyPath: m_LocalPosition.x

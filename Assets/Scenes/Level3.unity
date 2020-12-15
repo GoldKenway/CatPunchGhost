@@ -179,6 +179,7 @@ MonoBehaviour:
   EnemyTotal: 9
   CalltoGlobal: 0
   slider: {fileID: 386661992}
+  EnemySpawner: {fileID: 0}
 --- !u!114 &386661992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -994,7 +995,7 @@ GameObject:
   - component: {fileID: 1786300437}
   m_Layer: 9
   m_Name: EnemySpawner
-  m_TagString: Untagged
+  m_TagString: spawner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

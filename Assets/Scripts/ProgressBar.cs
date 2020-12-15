@@ -12,6 +12,8 @@ public class ProgressBar : MonoBehaviour
 
 	public Slider slider;
 
+	public GameObject EnemySpawner;
+
 	public void SetMaxEnemy(int totalEnemies)
 	{
 		slider.maxValue = totalEnemies;
@@ -21,6 +23,8 @@ public class ProgressBar : MonoBehaviour
 	{
 		SetMaxEnemy(EnemyTotal);
 		CalltoGlobal = EndCard.OverallDead;
+
+		EnemySpawner = GameObject.FindWithTag("spawner");
 	}
 
 	public void SetProgress(int EnemiesKilled)
@@ -28,7 +32,7 @@ public class ProgressBar : MonoBehaviour
 		slider.value = EnemiesKilled;
 		if (EnemiesKilled == EnemyTotal)
 		{
-			Instantiate(Boss, Boss.position, Boss.rotation);
+			Instantiate(Boss, EnemySpawner.transform.position, EnemySpawner.transform.rotation);
 
 		}
 
