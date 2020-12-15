@@ -1,6 +1,9 @@
-﻿using UnityEngine;
+﻿
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class CharacterStats : MonoBehaviour
 {
 	GameObject Camera;
@@ -41,9 +44,22 @@ public class CharacterStats : MonoBehaviour
 		if (playerHealth <= 0)
         {
 			player.animator.SetBool("isDead", true);
-			Application.Quit();
+			StartCoroutine(WaitForAnimation(2f));
 		}
     }
+
+
+	IEnumerator WaitForAnimation(float Duration)
+	{
+
+		yield return new WaitForSecondsRealtime(Duration);
+		Destroy(this.gameObject);
+		Destroy(Camera);
+		SceneManager.LoadScene("GameOver");
+
+	}
+
+
 
 	public void characterDeath(int lives)
 	{
