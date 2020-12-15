@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -5159475528927839335
-    second: SmallGhostIdle_0
+    second: Idle1
   - first:
       213: -6557464337059954331
-    second: SmallGhostIdle_1
+    second: Idle2
   - first:
       213: 5194249418013094417
-    second: SmallGhostIdle_2
+    second: Idle3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SmallGhostIdle_0
+      name: Idle1
       rect:
         serializedVersion: 2
         x: 4
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmallGhostIdle_1
+      name: Idle2
       rect:
         serializedVersion: 2
         x: 74
@@ -140,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmallGhostIdle_2
+      name: Idle3
       rect:
         serializedVersion: 2
         x: 138

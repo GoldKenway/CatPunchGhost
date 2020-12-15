@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 71929aa520ebb3d4c8729e93e714c9d2
+guid: 70f793031e4280747ac3d217aaa66154
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3398982352000727307
-    second: Makeshifspritet_0
+      213: 5299023686981212053
+    second: Death1
   - first:
-      213: -3299198818424192690
-    second: Makeshifspritet_1
+      213: 8365660001917515323
+    second: Death2
   - first:
-      213: -1580732744476995013
-    second: Makeshifspritet_2
+      213: 1925060070540933547
+    second: Death3
   - first:
-      213: -265123942958154106
-    second: Makeshifspritet_3
+      213: 8213318983660316991
+    second: Death4
   - first:
-      213: 9041869720035410875
-    second: Makeshifspritet_4
+      213: 8046085996563808692
+    second: Death5
   - first:
-      213: -1322026641988620765
-    second: Makeshifspritet_5
+      213: 8077601719116553181
+    second: smallGhostAnimation_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -66,7 +66,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -107,13 +107,55 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Makeshifspritet_0
+      name: Death1
       rect:
         serializedVersion: 2
-        x: 8
-        y: 367
+        x: 177
+        y: 12
+        width: 32
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59755e6c7f9e98940800000000000000
+      internalID: 5299023686981212053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 15
+        width: 35
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36bcf5d27bc81470800000000000000
+      internalID: 8365660001917515323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death3
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 20
         width: 55
-        height: 111
+        height: 41
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0933d8c07c9b2f20800000000000000
-      internalID: 3398982352000727307
+      spriteID: ba971eb4fef27ba10800000000000000
+      internalID: 1925060070540933547
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Makeshifspritet_1
+      name: Death4
       rect:
         serializedVersion: 2
-        x: 74
-        y: 371
-        width: 52
-        height: 103
+        x: 334
+        y: 11
+        width: 62
+        height: 28
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4100709724e632d0800000000000000
-      internalID: -3299198818424192690
+      spriteID: f39ab0089129bf170800000000000000
+      internalID: 8213318983660316991
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Makeshifspritet_2
+      name: Death5
       rect:
         serializedVersion: 2
-        x: 132
-        y: 371
+        x: 402
+        y: 11
         width: 61
-        height: 90
+        height: 23
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,71 +205,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b32de98a1fb101ae0800000000000000
-      internalID: -1580732744476995013
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Makeshifspritet_3
-      rect:
-        serializedVersion: 2
-        x: 198
-        y: 370
-        width: 98
-        height: 101
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68e3786bd27125cf0800000000000000
-      internalID: -265123942958154106
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Makeshifspritet_4
-      rect:
-        serializedVersion: 2
-        x: 302
-        y: 370
-        width: 100
-        height: 94
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bb34210ca9c2b7d70800000000000000
-      internalID: 9041869720035410875
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Makeshifspritet_5
-      rect:
-        serializedVersion: 2
-        x: 411
-        y: 372
-        width: 111
-        height: 93
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 32e6aa406c737ade0800000000000000
-      internalID: -1322026641988620765
+      spriteID: 4b14e69759079af60800000000000000
+      internalID: 8046085996563808692
       vertices: []
       indices: 
       edges: []
