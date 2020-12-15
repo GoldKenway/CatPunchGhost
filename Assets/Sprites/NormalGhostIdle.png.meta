@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 2603426348107239209
-    second: ghost_sprite_sheet_0
+    second: Idle1
   - first:
       213: -4167381135003202170
-    second: ghost_sprite_sheet_1
+    second: Idle2
   - first:
       213: -8639863935944374054
-    second: ghost_sprite_sheet_2
+    second: Idle3
   - first:
       213: 4475046483918720195
     second: ghost_sprite_sheet_3
@@ -101,7 +101,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ghost_sprite_sheet_0
+      name: Idle1
       rect:
         serializedVersion: 2
         x: 1
@@ -122,7 +122,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ghost_sprite_sheet_1
+      name: Idle2
       rect:
         serializedVersion: 2
         x: 71
@@ -143,7 +143,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ghost_sprite_sheet_2
+      name: Idle3
       rect:
         serializedVersion: 2
         x: 135
@@ -172,7 +172,7 @@ TextureImporter:
         width: 9
         height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

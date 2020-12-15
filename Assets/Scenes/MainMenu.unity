@@ -2246,6 +2246,10 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3652820328163784435, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
+      propertyPath: movementSpeed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3652820328163784436, guid: 380a45e5c323e7c4fa8cd1cc08959c83, type: 3}
       propertyPath: m_Sprite
       value: 
