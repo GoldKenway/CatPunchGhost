@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class Scene3Prepare : MonoBehaviour
 {
     GameObject player;
     GameObject camera;
